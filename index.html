@@ -1,0 +1,2290 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <!-- SEO & Métadonnées -->
+  <title>ALL CLEAN | Nettoyage Professionnel à Bamako</title>
+  <meta name="description" content="ALL CLEAN accompagne entreprises, commerces, administrations et professionnels avec des services de nettoyage et d'entretien de qualité à Bamako, Mali.">
+  <meta name="keywords" content="nettoyage professionnel Bamako, société de nettoyage Mali, entretien bureaux Bamako, nettoyage fin de chantier Bamako, hygiène professionnelle Mali, ALL CLEAN">
+  <meta name="author" content="ALL CLEAN">
+  <meta name="theme-color" content="#0B2849">
+  
+  <!-- Open Graph / Réseaux Sociaux -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ALL CLEAN | Quand la propreté devient une signature">
+  <meta property="og:description" content="Nettoyage et entretien professionnel haut de gamme pour entreprises, bureaux, commerces et administrations à Bamako, Mali.">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:site_name" content="ALL CLEAN">
+  <meta property="og:image" content="images/nettoyage sol.webp">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="images/logo.png">
+
+  <!-- Google Fonts: Inter & Manrope -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clean: {
+              navy: '#0B2849',
+              navyDark: '#0D141F',
+              gold: '#DAB051',
+              goldDark: '#B28833',
+              goldSoft: '#D6C097',
+              ivory: '#F0F0F0',
+              gray: '#D1D4D4',
+              grayBlue: '#7D8C96'
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            display: ['Manrope', 'sans-serif']
+          },
+          boxShadow: {
+            premium: '0 20px 60px rgba(11, 40, 73, 0.12)',
+            gold: '0 12px 40px rgba(218, 176, 81, 0.20)'
+          }
+        }
+      }
+    };
+  </script>
+
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- CSS Minimal Complémentaire -->
+  <style>
+    /* Personnalisation de la barre de défilement */
+    ::-webkit-scrollbar {
+      width: 10px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #0D141F;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #0B2849;
+      border: 2px solid #DAB051;
+      border-radius: 6px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #DAB051;
+    }
+
+    /* Utilitaires d'animation au scroll */
+    .reveal-fade-up {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .reveal-fade-in {
+      opacity: 0;
+      transition: opacity 0.9s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .revealed {
+      opacity: 1 !important;
+      transform: translateY(0) !important;
+    }
+
+    /* Respect des préférences utilisateur pour réduire les animations */
+    @media (prefers-reduced-motion: reduce) {
+      .reveal-fade-up, .reveal-fade-in {
+        transition: none !important;
+        opacity: 1 !important;
+        transform: none !important;
+      }
+      * {
+        animation: none !important;
+        transition: none !important;
+      }
+    }
+
+    /* Accentuation subtile du focus accessible */
+    a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible {
+      outline: 2px solid #DAB051;
+      outline-offset: 2px;
+    }
+
+    /* Floating WhatsApp Button Pulse */
+        @keyframes wa-pulse {
+            0% {
+                box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.5);
+            }
+
+            70% {
+                box-shadow: 0 0 0 16px rgba(37, 211, 102, 0);
+            }
+
+            100% {
+                box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+            }
+        }
+
+        .wa-floating-btn {
+            animation: wa-pulse 2.2s infinite;
+        }
+  </style>
+</head>
+<body class="bg-clean-ivory text-clean-navy font-sans antialiased selection:bg-clean-gold selection:text-clean-navyDark overflow-x-hidden">
+
+  <!-- ================================================== -->
+  <!-- 1. HEADER / NAVIGATION                             -->
+  <!-- ================================================== -->
+  <header id="main-header" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-white/80 backdrop-blur-md border-b border-clean-gray/30">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        
+        <!-- Logo ALL CLEAN -->
+        <a href="#hero" class="flex items-center gap-3 group focus:outline-none" aria-label="ALL CLEAN - Retour au haut de page">
+          <img src="images/logo.png" alt="ALL CLEAN - Logo" class="w-11 h-11 rounded-xl">
+          <div class="flex flex-col">
+            <span class="font-display font-bold text-xl tracking-wider text-clean-navy leading-none">
+              ALL <span class="text-clean-gold">CLEAN</span>
+            </span>
+            <span class="text-[10px] uppercase tracking-widest text-clean-grayBlue font-medium mt-1">
+              Nettoyage Professionnel
+            </span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <nav class="hidden lg:flex items-center space-x-7" aria-label="Navigation principale">
+          <a href="#hero" class="text-sm font-medium text-clean-navy hover:text-clean-gold transition-colors duration-200">Accueil</a>
+          <a href="#apropos" class="text-sm font-medium text-clean-navy/80 hover:text-clean-gold transition-colors duration-200">À propos</a>
+          <a href="#services" class="text-sm font-medium text-clean-navy/80 hover:text-clean-gold transition-colors duration-200">Services</a>
+          <a href="#secteurs" class="text-sm font-medium text-clean-navy/80 hover:text-clean-gold transition-colors duration-200">Secteurs</a>
+          <a href="#realisations" class="text-sm font-medium text-clean-navy/80 hover:text-clean-gold transition-colors duration-200">Nos réalisations</a>
+          <a href="#faq" class="text-sm font-medium text-clean-navy/80 hover:text-clean-gold transition-colors duration-200">FAQ</a>
+          <a href="#contact" class="text-sm font-medium text-clean-navy/80 hover:text-clean-gold transition-colors duration-200">Contact</a>
+        </nav>
+
+        <!-- CTA & Phone Quick Contact -->
+        <div class="hidden lg:flex items-center gap-4">
+          <a href="tel:+22366736685" class="flex items-center gap-2 text-xs font-semibold text-clean-navy hover:text-clean-gold transition-colors">
+            <span class="w-8 h-8 rounded-full bg-clean-navy/5 flex items-center justify-center text-clean-navy">
+              <i data-lucide="phone" class="w-4 h-4"></i>
+            </span>
+            <span>+223 66 73 66 85</span>
+          </a>
+          <a href="#devis" class="inline-flex items-center justify-center px-5 py-2.5 rounded-full text-xs font-bold font-display uppercase tracking-wider bg-clean-gold text-clean-navy hover:bg-clean-goldDark transition-all duration-300 shadow-gold hover:-translate-y-0.5">
+            Demander un devis
+          </a>
+        </div>
+
+        <!-- Mobile Hamburger Button -->
+        <div class="lg:hidden flex items-center">
+          <button id="mobile-menu-btn" type="button" class="p-2 rounded-lg text-clean-navy hover:bg-clean-navy/5 focus:outline-none" aria-label="Ouvrir le menu de navigation" aria-expanded="false" aria-controls="mobile-menu">
+            <i data-lucide="menu" id="menu-icon-open" class="w-6 h-6"></i>
+            <i data-lucide="x" id="menu-icon-close" class="w-6 h-6 hidden"></i>
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Mobile Drawer Menu -->
+    <div id="mobile-menu" class="hidden lg:hidden bg-clean-navyDark text-white border-b border-clean-gold/20 shadow-2xl transition-all duration-300">
+      <div class="px-5 pt-4 pb-6 space-y-3">
+        <a href="#hero" class="mobile-nav-link block py-2 text-base font-medium text-white/90 hover:text-clean-gold border-b border-white/5">Accueil</a>
+        <a href="#apropos" class="mobile-nav-link block py-2 text-base font-medium text-white/90 hover:text-clean-gold border-b border-white/5">À propos</a>
+        <a href="#services" class="mobile-nav-link block py-2 text-base font-medium text-white/90 hover:text-clean-gold border-b border-white/5">Services</a>
+        <a href="#secteurs" class="mobile-nav-link block py-2 text-base font-medium text-white/90 hover:text-clean-gold border-b border-white/5">Secteurs</a>
+        <a href="#realisations" class="mobile-nav-link block py-2 text-base font-medium text-white/90 hover:text-clean-gold border-b border-white/5">Nos réalisations</a>
+        <a href="#faq" class="mobile-nav-link block py-2 text-base font-medium text-white/90 hover:text-clean-gold border-b border-white/5">FAQ</a>
+        <a href="#contact" class="mobile-nav-link block py-2 text-base font-medium text-white/90 hover:text-clean-gold border-b border-white/5">Contact</a>
+        
+        <div class="pt-4 flex flex-col gap-3">
+          <a href="tel:+22366736685" class="flex items-center gap-3 py-2 text-sm text-clean-gray">
+            <i data-lucide="phone" class="w-4 h-4 text-clean-gold"></i>
+            <span>+223 66 73 66 85 / +223 70 03 97 02</span>
+          </a>
+          <a href="#devis" class="mobile-nav-link w-full text-center py-3 rounded-xl bg-clean-gold text-clean-navy font-bold text-sm uppercase tracking-wider shadow-gold">
+            Demander un devis
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ================================================== -->
+    <!-- 2. HERO                                            -->
+    <!-- ================================================== -->
+    <section id="hero" class="relative pt-28 pb-16 md:pt-32 md:pb-20 lg:pt-32 lg:pb-24 bg-gradient-to-b from-white via-clean-ivory to-clean-ivory overflow-hidden">
+      <!-- Cercles & lueurs dorées subtiles en arrière-plan -->
+      <div class="absolute top-1/4 left-1/2 -translate-x-1/2 w-[700px] h-[700px] bg-clean-gold/10 rounded-full blur-3xl pointer-events-none -z-10"></div>
+      <div class="absolute -top-24 right-0 w-96 h-96 bg-clean-navy/5 rounded-full blur-2xl pointer-events-none -z-10"></div>
+
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+          
+          <!-- Colonne Gauche : Textes & CTA -->
+          <div class="lg:col-span-7 space-y-6 reveal-fade-up">
+
+            <!-- Titre Principal H1 -->
+            <div class="space-y-3">
+              <span class="block text-xs md:text-sm font-semibold uppercase tracking-[0.25em] text-clean-grayBlue">
+                ALL CLEAN • BAMAKO, MALI
+              </span>
+              <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-5xl font-display font-extrabold text-clean-navy leading-[1.15] tracking-tight">
+                Quand la propreté <br class="hidden sm:block" />
+                <span class="relative inline-block text-clean-navy">
+                  devient une 
+                  <span class="text-clean-gold relative">
+                    signature
+                    <svg class="absolute -bottom-2 left-0 w-full h-2 text-clean-gold/40" viewBox="0 0 100 8" preserveAspectRatio="none">
+                      <path d="M0,5 Q50,0 100,5" stroke="currentColor" stroke-width="3" fill="none" />
+                    </svg>
+                  </span>.
+                </span>
+              </h1>
+            </div>
+
+            <!-- Accroche & Description -->
+            <div class="space-y-3 max-w-2xl">
+              <p class="text-lg md:text-xl font-medium text-clean-navy/90 font-display">
+                Des espaces impeccables. Une image qui inspire confiance.
+              </p>
+              <p class="text-sm md:text-base text-clean-navy/70 leading-relaxed">
+                Nous accompagnons entreprises, commerces, administrations et professionnels avec des solutions de nettoyage adaptées à leurs exigences les plus strictes à Bamako et environs.
+              </p>
+            </div>
+
+            <!-- Boutons d'action -->
+            <div class="pt-2 flex flex-col sm:flex-row items-stretch sm:items-center gap-4">
+              <a href="#devis" class="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-full bg-clean-gold text-clean-navy font-bold text-sm tracking-wide shadow-gold hover:bg-clean-goldDark transition-all duration-300 transform hover:-translate-y-0.5">
+                <span>Demander un devis</span>
+                <i data-lucide="arrow-right" class="w-4 h-4"></i>
+              </a>
+              <a href="#services" class="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-full bg-white border border-clean-gray text-clean-navy font-semibold text-sm hover:border-clean-navy hover:bg-clean-ivory transition-all duration-300">
+                <span>Découvrir nos services</span>
+              </a>
+            </div>
+
+            <!-- Localisation & Équipe -->
+            <div class="pt-4 flex flex-wrap items-center gap-6 text-xs text-clean-grayBlue border-t border-clean-gray/50">
+              <div class="flex items-center gap-1.5 font-medium text-clean-navy">
+                <i data-lucide="map-pin" class="w-4 h-4 text-clean-gold"></i>
+                <span>Bamako • Mali</span>
+              </div>
+              <div class="flex items-center gap-1.5">
+                <i data-lucide="shield-check" class="w-4 h-4 text-clean-gold"></i>
+                <span>Protocoles d'hygiène rigoureux</span>
+              </div>
+              <div class="flex items-center gap-1.5">
+                <i data-lucide="clock-3" class="w-4 h-4 text-clean-gold"></i>
+                <span>Interventions 7j/7 sur mesure</span>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Colonne Droite : Visuel Hero avec Badges Flottants -->
+          <div class="lg:col-span-5 relative reveal-fade-in">
+            <!-- Cercle décoratif doré derrière l'image -->
+            <div class="absolute -inset-4 bg-gradient-to-tr from-clean-gold/25 via-clean-gold/5 to-clean-navy/10 rounded-3xl blur-xl -z-10"></div>
+            
+            <div class="relative rounded-3xl overflow-hidden shadow-premium border-4 border-white">
+              <img 
+                src="images/all_clean.webp" 
+                alt="Bureau moderne d'entreprise d'une propreté étincelante entretenu par ALL CLEAN à Bamako" 
+                class="w-full h-[420px] sm:h-[480px] lg:h-[500px] object-cover object-center transform hover:scale-105 transition-transform duration-700"
+                loading="eager"
+              >
+              <!-- Gradient Overlay subtil -->
+              <div class="absolute inset-0 bg-gradient-to-t from-clean-navy/60 via-transparent to-transparent"></div>
+              
+              <div class="absolute bottom-4 left-4 right-4 text-white text-xs">
+                <span class="inline-block px-2.5 py-1 bg-clean-navy/80 backdrop-blur-md rounded-md font-mono text-[11px] text-clean-gold">
+                  Qualité Certifiée • Bamako
+                </span>
+              </div>
+            </div>
+
+            <!-- Badge Flottant -->
+            <div class="absolute -bottom-5 -right-4 sm:-right-6 bg-white/95 backdrop-blur-md p-3.5 rounded-2xl shadow-premium border border-clean-gray/40 flex items-center gap-3">
+              <div class="w-10 h-10 rounded-xl bg-clean-gold text-clean-navy flex items-center justify-center">
+                <i data-lucide="badge-check" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <p class="text-xs font-bold text-clean-navy">Professionnels qualifiés</p>
+                <p class="text-[11px] text-clean-grayBlue">Agents formés & encadrés</p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================== -->
+    <!-- 3. BANDEAU DE CONFIANCE                            -->
+    <!-- ================================================== -->
+    <section class="py-12 bg-white border-y border-clean-gray/40">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-3xl mx-auto mb-10 reveal-fade-up">
+          <p class="text-base sm:text-lg font-semibold text-clean-navy font-display">
+            « La propreté n'est pas un détail. Elle reflète votre image. »
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
+          
+          <!-- Item 1 -->
+          <div class="flex items-center gap-4 p-4 rounded-2xl bg-clean-ivory/60 border border-clean-gray/30 hover:border-clean-gold/40 transition-colors reveal-fade-up">
+            <div class="w-12 h-12 rounded-xl bg-clean-navy text-clean-gold flex-shrink-0 flex items-center justify-center">
+              <i data-lucide="users" class="w-6 h-6"></i>
+            </div>
+            <div>
+              <h3 class="text-sm font-bold text-clean-navy">Personnel qualifié</h3>
+              <p class="text-xs text-clean-grayBlue mt-0.5">Agents formés, rigoureux et discrets</p>
+            </div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="flex items-center gap-4 p-4 rounded-2xl bg-clean-ivory/60 border border-clean-gray/30 hover:border-clean-gold/40 transition-colors reveal-fade-up" style="transition-delay: 100ms;">
+            <div class="w-12 h-12 rounded-xl bg-clean-navy text-clean-gold flex-shrink-0 flex items-center justify-center">
+              <i data-lucide="clock-3" class="w-6 h-6"></i>
+            </div>
+            <div>
+              <h3 class="text-sm font-bold text-clean-navy">Intervention rapide</h3>
+              <p class="text-xs text-clean-grayBlue mt-0.5">Disponibilité immédiate & flexibilité</p>
+            </div>
+          </div>
+
+          <!-- Item 3 -->
+          <div class="flex items-center gap-4 p-4 rounded-2xl bg-clean-ivory/60 border border-clean-gray/30 hover:border-clean-gold/40 transition-colors reveal-fade-up" style="transition-delay: 200ms;">
+            <div class="w-12 h-12 rounded-xl bg-clean-navy text-clean-gold flex-shrink-0 flex items-center justify-center">
+              <i data-lucide="spray-can" class="w-6 h-6"></i>
+            </div>
+            <div>
+              <h3 class="text-sm font-bold text-clean-navy">Produits professionnels</h3>
+              <p class="text-xs text-clean-grayBlue mt-0.5">Matériel industriel haute efficacité</p>
+            </div>
+          </div>
+
+          <!-- Item 4 -->
+          <div class="flex items-center gap-4 p-4 rounded-2xl bg-clean-ivory/60 border border-clean-gray/30 hover:border-clean-gold/40 transition-colors reveal-fade-up" style="transition-delay: 300ms;">
+            <div class="w-12 h-12 rounded-xl bg-clean-navy text-clean-gold flex-shrink-0 flex items-center justify-center">
+              <i data-lucide="shield-check" class="w-6 h-6"></i>
+            </div>
+            <div>
+              <h3 class="text-sm font-bold text-clean-navy">Normes d'hygiène</h3>
+              <p class="text-xs text-clean-grayBlue mt-0.5">Désinfection & sécurité sanitaire</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================================================== -->
+    <!-- 4. SECTION À PROPOS                                -->
+    <!-- ================================================== -->
+    <section id="apropos" class="py-20 md:py-28 bg-clean-ivory">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+          
+          <!-- Image à Gauche -->
+          <div class="lg:col-span-6 relative reveal-fade-up">
+            <div class="relative rounded-3xl overflow-hidden shadow-premium border border-clean-gray/40">
+              <img 
+                src="images/elle-nettoie.webp" 
+                alt="Agent d'entretien qualifié ALL CLEAN en plein nettoyage soigné de locaux professionnels" 
+                class="w-full h-[400px] sm:h-[480px] object-cover"
+                loading="lazy"
+              >
+              <div class="absolute inset-0 bg-clean-navy/20"></div>
+            </div>
+
+            <!-- Carte de réassurance superposée -->
+            <div class="absolute -bottom-6 -right-4 sm:right-6 bg-clean-navy text-white p-5 rounded-2xl shadow-xl max-w-xs border border-clean-gold/30">
+              <div class="flex items-center gap-3 mb-2">
+                <i data-lucide="check-circle-2" class="w-5 h-5 text-clean-gold"></i>
+                <span class="text-xs uppercase tracking-wider font-semibold text-clean-gold">Excellence Bamako</span>
+              </div>
+              <p class="text-xs text-clean-gray leading-relaxed">
+                Une équipe professionnelle dévouée à l'entretien irréprochable de votre patrimoine immobilier et de vos bureaux.
+              </p>
+            </div>
+          </div>
+
+          <!-- Texte à Droite -->
+          <div class="lg:col-span-6 space-y-6 reveal-fade-up">
+            
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-clean-gold/15 text-clean-goldDark text-xs font-bold tracking-wider uppercase">
+              <i data-lucide="sparkles" class="w-3.5 h-3.5 text-clean-goldDark"></i>
+              <span>NOTRE ENGAGEMENT</span>
+            </div>
+
+            <h2 class="text-2xl sm:text-3xl md:text-4xl font-display font-extrabold text-clean-navy leading-tight">
+              Une propreté pensée <br>
+              <span class="text-clean-gold">pour votre image</span>.
+            </h2>
+
+            <p class="text-sm sm:text-base text-clean-navy/80 leading-relaxed">
+              <strong>ALL CLEAN</strong> accompagne les entreprises, commerces, administrations et professionnels dans l'entretien de leurs espaces. Notre approche repose sur la rigueur, la qualité d'exécution et une attention particulière aux détails.
+            </p>
+
+            <p class="text-sm text-clean-grayBlue leading-relaxed">
+              À Bamako, l'hygiène de vos locaux constitue le premier vecteur de crédibilité auprès de vos partenaires, clients et collaborateurs. Nous transformons chaque intervention en gage de sérénité.
+            </p>
+
+            <!-- Liste des 6 engagements clés -->
+            <div class="pt-2">
+              <h3 class="text-xs font-bold uppercase tracking-wider text-clean-navy mb-4 font-display">
+                Nos piliers opérationnels :
+              </h3>
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-3.5 text-xs text-clean-navy">
+                <div class="flex items-center gap-2.5 p-2.5 rounded-xl bg-white border border-clean-gray/40">
+                  <i data-lucide="check-circle-2" class="w-4 h-4 text-clean-gold flex-shrink-0"></i>
+                  <span class="font-medium">Travail soigné</span>
+                </div>
+                <div class="flex items-center gap-2.5 p-2.5 rounded-xl bg-white border border-clean-gray/40">
+                  <i data-lucide="check-circle-2" class="w-4 h-4 text-clean-gold flex-shrink-0"></i>
+                  <span class="font-medium">Personnel professionnel</span>
+                </div>
+                <div class="flex items-center gap-2.5 p-2.5 rounded-xl bg-white border border-clean-gray/40">
+                  <i data-lucide="check-circle-2" class="w-4 h-4 text-clean-gold flex-shrink-0"></i>
+                  <span class="font-medium">Respect des procédures</span>
+                </div>
+                <div class="flex items-center gap-2.5 p-2.5 rounded-xl bg-white border border-clean-gray/40">
+                  <i data-lucide="check-circle-2" class="w-4 h-4 text-clean-gold flex-shrink-0"></i>
+                  <span class="font-medium">Produits adaptés</span>
+                </div>
+                <div class="flex items-center gap-2.5 p-2.5 rounded-xl bg-white border border-clean-gray/40">
+                  <i data-lucide="check-circle-2" class="w-4 h-4 text-clean-gold flex-shrink-0"></i>
+                  <span class="font-medium">Intervention organisée</span>
+                </div>
+                <div class="flex items-center gap-2.5 p-2.5 rounded-xl bg-white border border-clean-gray/40">
+                  <i data-lucide="check-circle-2" class="w-4 h-4 text-clean-gold flex-shrink-0"></i>
+                  <span class="font-medium">Satisfaction client</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="pt-2">
+              <a href="#devis" class="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-clean-navy hover:text-clean-gold transition-colors">
+                <span>Découvrir notre démarche personnalisée</span>
+                <i data-lucide="arrow-right" class="w-4 h-4 text-clean-gold"></i>
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================================================== -->
+    <!-- 5. SERVICES (6 CARTES)                             -->
+    <!-- ================================================== -->
+    <section id="services" class="py-20 md:py-28 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <!-- En-tête de section -->
+        <div class="text-center max-w-3xl mx-auto mb-16 reveal-fade-up">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-clean-navy/5 text-clean-navy text-xs font-bold uppercase tracking-wider mb-3">
+            <i data-lucide="briefcase-business" class="w-3.5 h-3.5 text-clean-gold"></i>
+            <span>EXCELLENCE OPÉRATIONNELLE</span>
+          </div>
+          <h2 class="text-2xl sm:text-3xl md:text-4xl font-display font-extrabold text-clean-navy">
+            Nos services
+          </h2>
+          <p class="mt-3 text-base text-clean-grayBlue">
+            Des solutions adaptées à chaque environnement professionnel
+          </p>
+        </div>
+
+        <!-- Grille des 6 Services -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          
+          <!-- Service 1 -->
+          <div class="group relative bg-white rounded-3xl p-6 border border-clean-gray/50 hover:border-clean-gold/40 shadow-sm hover:shadow-md transition-all duration-300 flex flex-col justify-between hover:-translate-y-1.5 reveal-fade-up">
+            <div class="space-y-4">
+              <div class="flex items-center justify-between">
+                <div class="w-12 h-12 rounded-2xl bg-clean-navy/5 text-clean-navy group-hover:bg-clean-navy group-hover:text-clean-gold transition-colors duration-300 flex items-center justify-center">
+                  <i data-lucide="building-2" class="w-6 h-6"></i>
+                </div>
+                <span class="text-2xl font-display font-bold text-clean-gray group-hover:text-clean-gold transition-colors">01</span>
+              </div>
+              <h3 class="text-lg font-bold font-display text-clean-navy group-hover:text-clean-navy">
+                Nettoyage de bureaux et administrations
+              </h3>
+              <p class="text-xs sm:text-sm text-clean-grayBlue leading-relaxed">
+                Entretien quotidien ou ponctuel de vos espaces professionnels. Dépoussiérage, désinfection des postes de travail, vitreries et sanitaires.
+              </p>
+            </div>
+            <div class="pt-6 border-t border-clean-gray/20 mt-6">
+              <a href="#devis" data-service="Nettoyage de bureaux" class="service-select-btn inline-flex items-center gap-1.5 text-xs font-semibold text-clean-navy hover:text-clean-gold transition-colors">
+                <span>Demander ce service</span>
+                <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Service 2 -->
+          <div class="group relative bg-white rounded-3xl p-6 border border-clean-gray/50 hover:border-clean-gold/40 shadow-sm hover:shadow-md transition-all duration-300 flex flex-col justify-between hover:-translate-y-1.5 reveal-fade-up" style="transition-delay: 100ms;">
+            <div class="space-y-4">
+              <div class="flex items-center justify-between">
+                <div class="w-12 h-12 rounded-2xl bg-clean-navy/5 text-clean-navy group-hover:bg-clean-navy group-hover:text-clean-gold transition-colors duration-300 flex items-center justify-center">
+                  <i data-lucide="store" class="w-6 h-6"></i>
+                </div>
+                <span class="text-2xl font-display font-bold text-clean-gray group-hover:text-clean-gold transition-colors">02</span>
+              </div>
+              <h3 class="text-lg font-bold font-display text-clean-navy">
+                Nettoyage de commerces et magasins
+              </h3>
+              <p class="text-xs sm:text-sm text-clean-grayBlue leading-relaxed">
+                Des espaces propres et accueillants pour vos clients et collaborateurs. Traitement des sols à fort passage et mise en valeur de vos vitrines.
+              </p>
+            </div>
+            <div class="pt-6 border-t border-clean-gray/20 mt-6">
+              <a href="#devis" data-service="Nettoyage de commerces" class="service-select-btn inline-flex items-center gap-1.5 text-xs font-semibold text-clean-navy hover:text-clean-gold transition-colors">
+                <span>Demander ce service</span>
+                <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Service 3 -->
+          <div class="group relative bg-white rounded-3xl p-6 border border-clean-gray/50 hover:border-clean-gold/40 shadow-sm hover:shadow-premium transition-all duration-300 flex flex-col justify-between hover:-translate-y-1.5 reveal-fade-up" style="transition-delay: 200ms;">
+            <div class="space-y-4">
+              <div class="flex items-center justify-between">
+                <div class="w-12 h-12 rounded-2xl bg-clean-navy/5 text-clean-navy group-hover:bg-clean-navy group-hover:text-clean-gold transition-colors duration-300 flex items-center justify-center">
+                  <i data-lucide="home" class="w-6 h-6"></i>
+                </div>
+                <span class="text-2xl font-display font-bold text-clean-gray group-hover:text-clean-gold transition-colors">03</span>
+              </div>
+              <h3 class="text-lg font-bold font-display text-clean-navy">
+                Entretien d'immeubles et parties communes
+              </h3>
+              <p class="text-xs sm:text-sm text-clean-grayBlue leading-relaxed">
+                Gestion complète de l'hygiène des halls d'entrée, cages d'escaliers, ascenseurs, paliers et gestion des conteneurs poubelles.
+              </p>
+            </div>
+            <div class="pt-6 border-t border-clean-gray/20 mt-6">
+              <a href="#devis" data-service="Entretien d'immeubles" class="service-select-btn inline-flex items-center gap-1.5 text-xs font-semibold text-clean-navy hover:text-clean-gold transition-colors">
+                <span>Demander ce service</span>
+                <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Service 4 -->
+          <div class="group relative bg-white rounded-3xl p-6 border border-clean-gray/50 hover:border-clean-gold/40 shadow-sm hover:shadow-md transition-all duration-300 flex flex-col justify-between hover:-translate-y-1.5 reveal-fade-up">
+            <div class="space-y-4">
+              <div class="flex items-center justify-between">
+                <div class="w-12 h-12 rounded-2xl bg-clean-navy/5 text-clean-navy group-hover:bg-clean-navy group-hover:text-clean-gold transition-colors duration-300 flex items-center justify-center">
+                  <i data-lucide="hard-hat" class="w-6 h-6"></i>
+                </div>
+                <span class="text-2xl font-display font-bold text-clean-gray group-hover:text-clean-gold transition-colors">04</span>
+              </div>
+              <h3 class="text-lg font-bold font-display text-clean-navy">
+                Nettoyage après travaux et fin de chantier
+              </h3>
+              <p class="text-xs sm:text-sm text-clean-grayBlue leading-relaxed">
+                Remise en état minutieuse après construction ou rénovation. Élimination des poussières de plâtre, résidus de peinture et lustrage des sols.
+              </p>
+            </div>
+            <div class="pt-6 border-t border-clean-gray/20 mt-6">
+              <a href="#devis" data-service="Nettoyage après travaux" class="service-select-btn inline-flex items-center gap-1.5 text-xs font-semibold text-clean-navy hover:text-clean-gold transition-colors">
+                <span>Demander ce service</span>
+                <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Service 5 -->
+          <div class="group relative bg-white rounded-3xl p-6 border border-clean-gray/50 hover:border-clean-gold/40 shadow-sm hover:shadow-md transition-all duration-300 flex flex-col justify-between hover:-translate-y-1.5 reveal-fade-up" style="transition-delay: 100ms;">
+            <div class="space-y-4">
+              <div class="flex items-center justify-between">
+                <div class="w-12 h-12 rounded-2xl bg-clean-navy/5 text-clean-navy group-hover:bg-clean-navy group-hover:text-clean-gold transition-colors duration-300 flex items-center justify-center">
+                  <i data-lucide="calendar-days" class="w-6 h-6"></i>
+                </div>
+                <span class="text-2xl font-display font-bold text-clean-gray group-hover:text-clean-gold transition-colors">05</span>
+              </div>
+              <h3 class="text-lg font-bold font-display text-clean-navy">
+                Nettoyage avant et après événements
+              </h3>
+              <p class="text-xs sm:text-sm text-clean-grayBlue leading-relaxed">
+                Préparation irréprochable des salles de réception, salons ou galas, et remise en état ultra-rapide post-événement pour les organisateurs.
+              </p>
+            </div>
+            <div class="pt-6 border-t border-clean-gray/20 mt-6">
+              <a href="#devis" data-service="Nettoyage avant/après événement" class="service-select-btn inline-flex items-center gap-1.5 text-xs font-semibold text-clean-navy hover:text-clean-gold transition-colors">
+                <span>Demander ce service</span>
+                <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Service 6 -->
+          <div class="group relative bg-white rounded-3xl p-6 border border-clean-gray/50 hover:border-clean-gold/40 shadow-sm hover:shadow-md transition-all duration-300 flex flex-col justify-between hover:-translate-y-1.5 reveal-fade-up" style="transition-delay: 200ms;">
+            <div class="space-y-4">
+              <div class="flex items-center justify-between">
+                <div class="w-12 h-12 rounded-2xl bg-clean-navy/5 text-clean-navy group-hover:bg-clean-navy group-hover:text-clean-gold transition-colors duration-300 flex items-center justify-center">
+                  <i data-lucide="clipboard-list" class="w-6 h-6"></i>
+                </div>
+                <span class="text-2xl font-display font-bold text-clean-gray group-hover:text-clean-gold transition-colors">06</span>
+              </div>
+              <h3 class="text-lg font-bold font-display text-clean-navy">
+                Entretien régulier ou ponctuel
+              </h3>
+              <p class="text-xs sm:text-sm text-clean-grayBlue leading-relaxed">
+                Contrats adaptés selon votre rythme : interventions quotidiennes, bi-hebdomadaires ou grand nettoyage approfondi sans engagement contraignant.
+              </p>
+            </div>
+            <div class="pt-6 border-t border-clean-gray/20 mt-6">
+              <a href="#devis" data-service="Entretien régulier" class="service-select-btn inline-flex items-center gap-1.5 text-xs font-semibold text-clean-navy hover:text-clean-gold transition-colors">
+                <span>Demander ce service</span>
+                <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================================================== -->
+    <!-- 6. SECTION SERVICE FEATURE / NOTRE MÉTHODE        -->
+    <!-- ================================================== -->
+    <section class="py-20 md:py-28 bg-clean-navy text-white relative overflow-hidden">
+      <!-- Décoration géométrique -->
+      <div class="absolute -right-20 -bottom-20 w-96 h-96 rounded-full bg-clean-gold/5 blur-3xl pointer-events-none"></div>
+
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+          
+          <!-- Titre & Image -->
+          <div class="lg:col-span-6 space-y-6 reveal-fade-up">
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 text-clean-gold text-xs font-bold uppercase tracking-wider">
+              <span>RÉALISATION ÉTAPE PAR ÉTAPE</span>
+            </div>
+            <h2 class="text-2xl sm:text-3xl md:text-4xl font-display font-extrabold text-white leading-tight">
+              Un service professionnel, du premier contact à la dernière finition.
+            </h2>
+            <p class="text-sm text-clean-gray leading-relaxed">
+              Chez ALL CLEAN, nous ne laissons rien au hasard. Chaque prestation est exécutée selon une méthodologie éprouvée garantissant un résultat irréprochable et mesurable.
+            </p>
+
+            <div class="rounded-3xl overflow-hidden border border-white/15 shadow-2xl relative">
+              <img 
+                src="images/matos.jpg"
+                alt="Matériel professionnel et produits écologiques de nettoyage ALL CLEAN" 
+                class="w-full h-64 sm:h-72 object-cover"
+                loading="lazy"
+              >
+              <div class="absolute inset-0 bg-clean-navy/30"></div>
+            </div>
+          </div>
+
+          <!-- Timeline Verticale 01 -> 04 -->
+          <div class="lg:col-span-6 space-y-8 reveal-fade-up">
+            
+            <!-- Étape 01 -->
+            <div class="flex items-start gap-5">
+              <div class="w-14 h-14 rounded-2xl bg-clean-gold/20 text-clean-gold border border-clean-gold/40 flex-shrink-0 flex items-center justify-center font-display font-bold text-lg">
+                01
+              </div>
+              <div class="space-y-1 pt-1">
+                <h3 class="text-base font-bold font-display text-white">Évaluation du besoin</h3>
+                <p class="text-xs sm:text-sm text-clean-gray leading-relaxed">
+                  Visite de vos locaux à Bamako ou échange précis pour évaluer la superficie, le type de surface et les exigences spécifiques de votre établissement.
+                </p>
+              </div>
+            </div>
+
+            <!-- Étape 02 -->
+            <div class="flex items-start gap-5">
+              <div class="w-14 h-14 rounded-2xl bg-clean-gold/20 text-clean-gold border border-clean-gold/40 flex-shrink-0 flex items-center justify-center font-display font-bold text-lg">
+                02
+              </div>
+              <div class="space-y-1 pt-1">
+                <h3 class="text-base font-bold font-display text-white">Planification de l'intervention</h3>
+                <p class="text-xs sm:text-sm text-clean-gray leading-relaxed">
+                  Mise en place d'un planning rigoureux adapté à vos heures creuses ou horaires de fermeture pour préserver la quiétude de votre activité.
+                </p>
+              </div>
+            </div>
+
+            <!-- Étape 03 -->
+            <div class="flex items-start gap-5">
+              <div class="w-14 h-14 rounded-2xl bg-clean-gold/20 text-clean-gold border border-clean-gold/40 flex-shrink-0 flex items-center justify-center font-display font-bold text-lg">
+                03
+              </div>
+              <div class="space-y-1 pt-1">
+                <h3 class="text-base font-bold font-display text-white">Intervention par notre équipe</h3>
+                <p class="text-xs sm:text-sm text-clean-gray leading-relaxed">
+                  Déploiement d'agents qualifiés en uniforme officiel ALL CLEAN, équipés de produits professionnels haut de gamme et de matériel adapté.
+                </p>
+              </div>
+            </div>
+
+            <!-- Étape 04 -->
+            <div class="flex items-start gap-5">
+              <div class="w-14 h-14 rounded-2xl bg-clean-gold text-clean-navy font-bold flex-shrink-0 flex items-center justify-center font-display text-lg shadow-gold">
+                04
+              </div>
+              <div class="space-y-1 pt-1">
+                <h3 class="text-base font-bold font-display text-white">Contrôle qualité</h3>
+                <p class="text-xs sm:text-sm text-clean-gray leading-relaxed">
+                  Inspection finale systématique par un chef d'équipe selon une grille de conformité exigeante avant livraison finale de vos espaces.
+                </p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================================================== -->
+    <!-- 7. POURQUOI CHOISIR ALL CLEAN                      -->
+    <!-- ================================================== -->
+    <section id="pourquoi-nous" class="py-20 md:py-28 bg-clean-ivory">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-3xl mx-auto mb-16 reveal-fade-up">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-clean-navy/5 text-clean-navy text-xs font-bold uppercase tracking-wider mb-3">
+            <i data-lucide="shield-check" class="w-3.5 h-3.5 text-clean-gold"></i>
+            <span>VALEURS ET DISTINCTION</span>
+          </div>
+          <h2 class="text-2xl sm:text-3xl md:text-4xl font-display font-extrabold text-clean-navy">
+            Pourquoi choisir ALL CLEAN ?
+          </h2>
+          <p class="mt-3 text-base text-clean-grayBlue">
+            Une exigence de chaque instant pour valoriser votre image d'entreprise
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 items-stretch">
+          
+          <!-- Bloc 1 -->
+          <div class="bg-white p-7 rounded-3xl border border-clean-gray/40 shadow-sm space-y-3 reveal-fade-up">
+            <div class="w-12 h-12 rounded-xl bg-clean-navy text-clean-gold flex items-center justify-center">
+              <i data-lucide="users" class="w-6 h-6"></i>
+            </div>
+            <h3 class="text-base font-bold font-display text-clean-navy">Personnel qualifié</h3>
+            <p class="text-xs sm:text-sm text-clean-grayBlue leading-relaxed">
+              Tous nos agents sont soigneusement recrutés, formés aux techniques de nettoyage modernes et sensibilisés à la discrétion professionnelle.
+            </p>
+          </div>
+
+          <!-- Bloc 2 -->
+          <div class="bg-white p-7 rounded-3xl border border-clean-gray/40 shadow-sm space-y-3 reveal-fade-up" style="transition-delay: 100ms;">
+            <div class="w-12 h-12 rounded-xl bg-clean-navy text-clean-gold flex items-center justify-center">
+              <i data-lucide="sparkles" class="w-6 h-6"></i>
+            </div>
+            <h3 class="text-base font-bold font-display text-clean-navy">Travail de qualité</h3>
+            <p class="text-xs sm:text-sm text-clean-grayBlue leading-relaxed">
+              Une obsession du détail : pas de recoins oubliés, sols traités dans les règles de l'art et surfaces délicates préservées avec soin.
+            </p>
+          </div>
+
+          <!-- Bloc 3 -->
+          <div class="bg-white p-7 rounded-3xl border border-clean-gray/40 shadow-sm space-y-3 reveal-fade-up" style="transition-delay: 200ms;">
+            <div class="w-12 h-12 rounded-xl bg-clean-navy text-clean-gold flex items-center justify-center">
+              <i data-lucide="clock-3" class="w-6 h-6"></i>
+            </div>
+            <h3 class="text-base font-bold font-display text-clean-navy">Intervention rapide</h3>
+            <p class="text-xs sm:text-sm text-clean-grayBlue leading-relaxed">
+              Une équipe mobile et réactive basée à Bamako, capable de répondre aux urgences et aux demandes spécifiques dans les meilleurs délais.
+            </p>
+          </div>
+
+          <!-- Bloc 4 -->
+          <div class="bg-white p-7 rounded-3xl border border-clean-gray/40 shadow-sm space-y-3 reveal-fade-up">
+            <div class="w-12 h-12 rounded-xl bg-clean-navy text-clean-gold flex items-center justify-center">
+              <i data-lucide="shield-check" class="w-6 h-6"></i>
+            </div>
+            <h3 class="text-base font-bold font-display text-clean-navy">Respect des normes d'hygiène</h3>
+            <p class="text-xs sm:text-sm text-clean-grayBlue leading-relaxed">
+              Application rigoureuse des protocoles sanitaires les plus stricts pour assurer la santé de vos équipes et l'assainissement de vos locaux.
+            </p>
+          </div>
+
+          <!-- Bloc 5 -->
+          <div class="bg-white p-7 rounded-3xl border border-clean-gray/40 shadow-sm space-y-3 reveal-fade-up" style="transition-delay: 100ms;">
+            <div class="w-12 h-12 rounded-xl bg-clean-navy text-clean-gold flex items-center justify-center">
+              <i data-lucide="check-circle-2" class="w-6 h-6"></i>
+            </div>
+            <h3 class="text-base font-bold font-display text-clean-navy">Satisfaction client</h3>
+            <p class="text-xs sm:text-sm text-clean-grayBlue leading-relaxed">
+              Un interlocuteur dédié et un suivi régulier pour ajuster nos prestations à l'évolution de vos besoins opérationnels.
+            </p>
+          </div>
+
+          <!-- Grande statistique visuelle -->
+          <div class="bg-clean-navy text-white p-7 rounded-3xl border border-clean-gold/30 shadow-premium flex flex-col justify-between reveal-fade-up" style="transition-delay: 200ms;">
+            <div class="space-y-2">
+              <span class="text-xs uppercase tracking-widest text-clean-gold font-bold">NOTRE PROMESSE</span>
+              <p class="text-xl font-display font-extrabold text-white leading-snug">
+                « Votre satisfaction, notre priorité absolue. »
+              </p>
+            </div>
+            <div class="pt-6">
+              <a href="#devis" class="inline-flex items-center gap-2 text-xs font-bold text-clean-gold hover:text-white transition-colors">
+                <span>Demander une visite d'évaluation</span>
+                <i data-lucide="arrow-right" class="w-4 h-4"></i>
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================================================== -->
+    <!-- 8. CHIFFRES / STATISTIQUES (ANIMÉES JS)            -->
+    <!-- ================================================== -->
+    <section id="stats" class="py-16 md:py-24 bg-clean-navy text-white relative border-y border-clean-gold/20">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="grid grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12 text-center">
+          
+          <!-- Stat 1 -->
+          <div class="space-y-2 reveal-fade-up">
+            <div class="text-3xl sm:text-4xl md:text-5xl font-extrabold font-display text-clean-gold tracking-tight">
+              <span class="counter-number" data-target="100" data-prefix="+">+100</span>
+            </div>
+            <p class="text-xs sm:text-sm text-clean-gray font-medium">Interventions réalisées</p>
+          </div>
+
+          <!-- Stat 2 -->
+          <div class="space-y-2 reveal-fade-up" style="transition-delay: 100ms;">
+            <div class="text-3xl sm:text-4xl md:text-5xl font-extrabold font-display text-clean-gold tracking-tight">
+              <span class="counter-number" data-target="50" data-prefix="+">+50</span>
+            </div>
+            <p class="text-xs sm:text-sm text-clean-gray font-medium">Espaces entretenus</p>
+          </div>
+
+          <!-- Stat 3 -->
+          <div class="space-y-2 reveal-fade-up" style="transition-delay: 200ms;">
+            <div class="text-3xl sm:text-4xl md:text-5xl font-extrabold font-display text-white tracking-tight">
+              <span>24/7</span>
+            </div>
+            <p class="text-xs sm:text-sm text-clean-gray font-medium">Disponibilité selon besoin</p>
+          </div>
+
+          <!-- Stat 4 -->
+          <div class="space-y-2 reveal-fade-up" style="transition-delay: 300ms;">
+            <div class="text-3xl sm:text-4xl md:text-5xl font-extrabold font-display text-clean-gold tracking-tight">
+              <span class="counter-number" data-target="100" data-suffix="%">100%</span>
+            </div>
+            <p class="text-xs sm:text-sm text-clean-gray font-medium">Engagement qualité</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================================================== -->
+    <!-- 9. SECTEURS D'INTERVENTION                         -->
+    <!-- ================================================== -->
+    <section id="secteurs" class="py-20 md:py-28 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-3xl mx-auto mb-16 reveal-fade-up">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-clean-navy/5 text-clean-navy text-xs font-bold uppercase tracking-wider mb-3">
+            <i data-lucide="map-pin" class="w-3.5 h-3.5 text-clean-gold"></i>
+            <span>MULTI-SECTEURS</span>
+          </div>
+          <h2 class="text-2xl sm:text-3xl md:text-4xl font-display font-extrabold text-clean-navy">
+            Nous intervenons là où la propreté compte.
+          </h2>
+          <p class="mt-3 text-base text-clean-grayBlue">
+            Une expertise éprouvée pour chaque typologie d'espace à Bamako
+          </p>
+        </div>
+
+        <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-3 gap-4 sm:gap-6">
+          
+          <!-- Carte 1 -->
+          <div class="group p-5 sm:p-6 rounded-2xl bg-clean-ivory/60 border border-clean-gray/30 hover:border-clean-gold/50 transition-all hover:bg-white hover:shadow-md reveal-fade-up">
+            <div class="w-10 h-10 rounded-xl bg-clean-navy/10 text-clean-navy group-hover:bg-clean-navy group-hover:text-clean-gold flex items-center justify-center transition-colors mb-3">
+              <i data-lucide="briefcase-business" class="w-5 h-5"></i>
+            </div>
+            <h3 class="text-sm sm:text-base font-bold text-clean-navy">Entreprises</h3>
+            <p class="text-xs text-clean-grayBlue mt-1">Sièges sociaux et structures corporate</p>
+          </div>
+
+          <!-- Carte 2 -->
+          <div class="group p-5 sm:p-6 rounded-2xl bg-clean-ivory/60 border border-clean-gray/30 hover:border-clean-gold/50 transition-all hover:bg-white hover:shadow-md reveal-fade-up" style="transition-delay: 50ms;">
+            <div class="w-10 h-10 rounded-xl bg-clean-navy/10 text-clean-navy group-hover:bg-clean-navy group-hover:text-clean-gold flex items-center justify-center transition-colors mb-3">
+              <i data-lucide="building-2" class="w-5 h-5"></i>
+            </div>
+            <h3 class="text-sm sm:text-base font-bold text-clean-navy">Bureaux</h3>
+            <p class="text-xs text-clean-grayBlue mt-1">Open spaces, agences et cabinets privés</p>
+          </div>
+
+          <!-- Carte 3 -->
+          <div class="group p-5 sm:p-6 rounded-2xl bg-clean-ivory/60 border border-clean-gray/30 hover:border-clean-gold/50 transition-all hover:bg-white hover:shadow-md reveal-fade-up" style="transition-delay: 100ms;">
+            <div class="w-10 h-10 rounded-xl bg-clean-navy/10 text-clean-navy group-hover:bg-clean-navy group-hover:text-clean-gold flex items-center justify-center transition-colors mb-3">
+              <i data-lucide="shield-check" class="w-5 h-5"></i>
+            </div>
+            <h3 class="text-sm sm:text-base font-bold text-clean-navy">Administrations</h3>
+            <p class="text-xs text-clean-grayBlue mt-1">Institutions publiques et ambassades</p>
+          </div>
+
+          <!-- Carte 4 -->
+          <div class="group p-5 sm:p-6 rounded-2xl bg-clean-ivory/60 border border-clean-gray/30 hover:border-clean-gold/50 transition-all hover:bg-white hover:shadow-md reveal-fade-up" style="transition-delay: 150ms;">
+            <div class="w-10 h-10 rounded-xl bg-clean-navy/10 text-clean-navy group-hover:bg-clean-navy group-hover:text-clean-gold flex items-center justify-center transition-colors mb-3">
+              <i data-lucide="store" class="w-5 h-5"></i>
+            </div>
+            <h3 class="text-sm sm:text-base font-bold text-clean-navy">Commerces</h3>
+            <p class="text-xs text-clean-grayBlue mt-1">Boutiques et galeries commerciales</p>
+          </div>
+
+          <!-- Carte 5 -->
+          <div class="group p-5 sm:p-6 rounded-2xl bg-clean-ivory/60 border border-clean-gray/30 hover:border-clean-gold/50 transition-all hover:bg-white hover:shadow-md reveal-fade-up" style="transition-delay: 200ms;">
+            <div class="w-10 h-10 rounded-xl bg-clean-navy/10 text-clean-navy group-hover:bg-clean-navy group-hover:text-clean-gold flex items-center justify-center transition-colors mb-3">
+              <i data-lucide="shopping-bag" class="w-5 h-5"></i>
+            </div>
+            <h3 class="text-sm sm:text-base font-bold text-clean-navy">Magasins</h3>
+            <p class="text-xs text-clean-grayBlue mt-1">Showrooms et espaces d'exposition</p>
+          </div>
+
+          <!-- Carte 6 -->
+          <div class="group p-5 sm:p-6 rounded-2xl bg-clean-ivory/60 border border-clean-gray/30 hover:border-clean-gold/50 transition-all hover:bg-white hover:shadow-md reveal-fade-up" style="transition-delay: 250ms;">
+            <div class="w-10 h-10 rounded-xl bg-clean-navy/10 text-clean-navy group-hover:bg-clean-navy group-hover:text-clean-gold flex items-center justify-center transition-colors mb-3">
+              <i data-lucide="home" class="w-5 h-5"></i>
+            </div>
+            <h3 class="text-sm sm:text-base font-bold text-clean-navy">Immeubles</h3>
+            <p class="text-xs text-clean-grayBlue mt-1">Copropriétés et complexes d'affaires</p>
+          </div>
+
+          <!-- Carte 7 -->
+          <div class="group p-5 sm:p-6 rounded-2xl bg-clean-ivory/60 border border-clean-gray/30 hover:border-clean-gold/50 transition-all hover:bg-white hover:shadow-md reveal-fade-up" style="transition-delay: 300ms;">
+            <div class="w-10 h-10 rounded-xl bg-clean-navy/10 text-clean-navy group-hover:bg-clean-navy group-hover:text-clean-gold flex items-center justify-center transition-colors mb-3">
+              <i data-lucide="sparkles" class="w-5 h-5"></i>
+            </div>
+            <h3 class="text-sm sm:text-base font-bold text-clean-navy">Résidences</h3>
+            <p class="text-xs text-clean-grayBlue mt-1">Villas privées et résidences de standing</p>
+          </div>
+
+          <!-- Carte 8 -->
+          <div class="group p-5 sm:p-6 rounded-2xl bg-clean-ivory/60 border border-clean-gray/30 hover:border-clean-gold/50 transition-all hover:bg-white hover:shadow-md reveal-fade-up" style="transition-delay: 350ms;">
+            <div class="w-10 h-10 rounded-xl bg-clean-navy/10 text-clean-navy group-hover:bg-clean-navy group-hover:text-clean-gold flex items-center justify-center transition-colors mb-3">
+              <i data-lucide="calendar-days" class="w-5 h-5"></i>
+            </div>
+            <h3 class="text-sm sm:text-base font-bold text-clean-navy">Événements</h3>
+            <p class="text-xs text-clean-grayBlue mt-1">Salons, conférences et galas de prestige</p>
+          </div>
+
+          <!-- Carte 9 -->
+          <div class="group p-5 sm:p-6 rounded-2xl bg-clean-ivory/60 border border-clean-gray/30 hover:border-clean-gold/50 transition-all hover:bg-white hover:shadow-md reveal-fade-up" style="transition-delay: 400ms;">
+            <div class="w-10 h-10 rounded-xl bg-clean-navy/10 text-clean-navy group-hover:bg-clean-navy group-hover:text-clean-gold flex items-center justify-center transition-colors mb-3">
+              <i data-lucide="hard-hat" class="w-5 h-5"></i>
+            </div>
+            <h3 class="text-sm sm:text-base font-bold text-clean-navy">Chantiers</h3>
+            <p class="text-xs text-clean-grayBlue mt-1">Locaux neufs et fins de travaux</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================================================== -->
+    <!-- 10. SECTION PROCESS (COMMENT ÇA MARCHE ?)          -->
+    <!-- ================================================== -->
+    <section class="py-20 md:py-28 bg-clean-ivory border-t border-clean-gray/30">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-3xl mx-auto mb-16 reveal-fade-up">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-clean-navy/5 text-clean-navy text-xs font-bold uppercase tracking-wider mb-3">
+            <i data-lucide="clipboard-list" class="w-3.5 h-3.5 text-clean-gold"></i>
+            <span>PROCESSUS SIMPLE</span>
+          </div>
+          <h2 class="text-2xl sm:text-3xl md:text-4xl font-display font-extrabold text-clean-navy">
+            Comment ça marche ?
+          </h2>
+          <p class="mt-3 text-base text-clean-grayBlue">
+            Un parcours fluide en 4 étapes simples pour démarrer en toute sérénité
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8 relative">
+          
+          <!-- Ligne de connexion desktop -->
+          <div class="hidden md:block absolute top-10 left-[12%] right-[12%] h-0.5 bg-clean-gray/70 -z-0"></div>
+
+          <!-- Étape 1 -->
+          <div class="relative z-10 flex flex-col items-center text-center space-y-4 reveal-fade-up">
+            <div class="w-20 h-20 rounded-full bg-white border-2 border-clean-gold shadow-md flex items-center justify-center text-clean-navy font-display font-extrabold text-xl">
+              01
+            </div>
+            <h3 class="text-base font-bold font-display text-clean-navy">Parlez-nous de votre besoin</h3>
+            <p class="text-xs text-clean-grayBlue leading-relaxed max-w-xs">
+              Remplissez notre formulaire en ligne ou appelez directement notre équipe à Bamako.
+            </p>
+          </div>
+
+          <!-- Étape 2 -->
+          <div class="relative z-10 flex flex-col items-center text-center space-y-4 reveal-fade-up" style="transition-delay: 100ms;">
+            <div class="w-20 h-20 rounded-full bg-white border-2 border-clean-gold shadow-md flex items-center justify-center text-clean-navy font-display font-extrabold text-xl">
+              02
+            </div>
+            <h3 class="text-base font-bold font-display text-clean-navy">Recevez votre proposition</h3>
+            <p class="text-xs text-clean-grayBlue leading-relaxed max-w-xs">
+              Un devis transparent, détaillé et adapté à la configuration exacte de vos locaux sous 24h.
+            </p>
+          </div>
+
+          <!-- Étape 3 -->
+          <div class="relative z-10 flex flex-col items-center text-center space-y-4 reveal-fade-up" style="transition-delay: 200ms;">
+            <div class="w-20 h-20 rounded-full bg-white border-2 border-clean-gold shadow-md flex items-center justify-center text-clean-navy font-display font-extrabold text-xl">
+              03
+            </div>
+            <h3 class="text-base font-bold font-display text-clean-navy">Planifiez l'intervention</h3>
+            <p class="text-xs text-clean-grayBlue leading-relaxed max-w-xs">
+              Nous fixons la date et les horaires selon vos préférences afin de ne pas impacter votre travail.
+            </p>
+          </div>
+
+          <!-- Étape 4 -->
+          <div class="relative z-10 flex flex-col items-center text-center space-y-4 reveal-fade-up" style="transition-delay: 300ms;">
+            <div class="w-20 h-20 rounded-full bg-clean-navy text-clean-gold border-2 border-clean-gold shadow-gold flex items-center justify-center font-display font-extrabold text-xl">
+              04
+            </div>
+            <h3 class="text-base font-bold font-display text-clean-navy">Profitez d'un espace impeccable</h3>
+            <p class="text-xs text-clean-grayBlue leading-relaxed max-w-xs">
+              Nos agents opèrent et délivrent une propreté éclatante conforme à vos exigences.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================================================== -->
+    <!-- 11. GALERIE / RÉALISATIONS (AVEC FILTRES & LIGHTBOX) -->
+    <!-- ================================================== -->
+    <section id="realisations" class="py-20 md:py-28 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-3xl mx-auto mb-12 reveal-fade-up">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-clean-navy/5 text-clean-navy text-xs font-bold uppercase tracking-wider mb-3">
+            <i data-lucide="sparkles" class="w-3.5 h-3.5 text-clean-gold"></i>
+            <span>PORTFOLIO & FINITIONS</span>
+          </div>
+          <h2 class="text-2xl sm:text-3xl md:text-4xl font-display font-extrabold text-clean-navy">
+            Nos réalisations
+          </h2>
+          <p class="mt-3 text-base text-clean-grayBlue">
+            Un aperçu du niveau d'exigence et de brillance que nous apportons à vos locaux
+          </p>
+        </div>
+
+        <!-- Boutons de Filtres JavaScript -->
+        <div class="hidden" aria-hidden="true">
+          <button type="button" class="gallery-filter-btn px-4 py-2 rounded-full text-xs font-semibold transition-all duration-200 bg-clean-navy text-white shadow-sm" data-filter="all">
+            Tous
+          </button>
+          <button type="button" class="gallery-filter-btn px-4 py-2 rounded-full text-xs font-semibold transition-all duration-200 bg-clean-ivory text-clean-navy hover:bg-clean-gray/50" data-filter="bureaux">
+            Bureaux
+          </button>
+          <button type="button" class="gallery-filter-btn px-4 py-2 rounded-full text-xs font-semibold transition-all duration-200 bg-clean-ivory text-clean-navy hover:bg-clean-gray/50" data-filter="commerces">
+            Commerces
+          </button>
+          <button type="button" class="gallery-filter-btn px-4 py-2 rounded-full text-xs font-semibold transition-all duration-200 bg-clean-ivory text-clean-navy hover:bg-clean-gray/50" data-filter="immeubles">
+            Immeubles
+          </button>
+          <button type="button" class="gallery-filter-btn px-4 py-2 rounded-full text-xs font-semibold transition-all duration-200 bg-clean-ivory text-clean-navy hover:bg-clean-gray/50" data-filter="apres-travaux">
+            Après travaux
+          </button>
+          <button type="button" class="gallery-filter-btn px-4 py-2 rounded-full text-xs font-semibold transition-all duration-200 bg-clean-ivory text-clean-navy hover:bg-clean-gray/50" data-filter="evenements">
+            Événements
+          </button>
+        </div>
+
+        <!-- Grille des Photos de Réalisations -->
+        <div id="gallery-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          
+          <!-- Item 1 - Bureaux -->
+          <div class="gallery-item group relative rounded-3xl overflow-hidden cursor-pointer shadow-sm border border-clean-gray/30 h-72 reveal-fade-up" data-category="bureaux" data-title="Bureaux d'affaires de direction" data-img="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=85">
+            <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80" alt="Bureaux de direction parfaitement entretenus à Bamako" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" loading="lazy">
+            <div class="absolute inset-0 bg-gradient-to-t from-clean-navyDark/85 via-clean-navyDark/25 to-transparent flex flex-col justify-end p-6">
+              <span class="text-xs uppercase tracking-wider font-semibold text-clean-gold">Bureaux</span>
+              <h3 class="text-sm font-bold text-white">Entretien complet d'open-space corporate</h3>
+            </div>
+          </div>
+
+          <!-- Item 2 - Commerces -->
+          <div class="gallery-item group relative rounded-3xl overflow-hidden cursor-pointer shadow-sm border border-clean-gray/30 h-72 reveal-fade-up" data-category="commerces" data-title="Boutique & Showroom de standing" data-img="https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1200&q=85">
+            <img src="images/showroom.webp" alt="Boutique et showroom de luxe avec sol impeccable" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" loading="lazy">
+            <div class="absolute inset-0 bg-gradient-to-t from-clean-navyDark/85 via-clean-navyDark/25 to-transparent flex flex-col justify-end p-6">
+              <span class="text-xs uppercase tracking-wider font-semibold text-clean-gold">Commerces</span>
+              <h3 class="text-sm font-bold text-white">Nettoyage soigné de showroom commercial</h3>
+            </div>
+          </div>
+
+          <!-- Item 3 - Immeubles -->
+          <div class="gallery-item group relative rounded-3xl overflow-hidden cursor-pointer shadow-sm border border-clean-gray/30 h-72 reveal-fade-up" data-category="immeubles" data-title="Hall d'immeuble et marbre poli" data-img="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=85">
+            <img src="images/nettoyage sol.webp" alt="Hall d'accueil d'immeuble d'affaires lustré" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" loading="lazy">
+            <div class="absolute inset-0 bg-gradient-to-t from-clean-navyDark/85 via-clean-navyDark/25 to-transparent flex flex-col justify-end p-6">
+              <span class="text-xs uppercase tracking-wider font-semibold text-clean-gold">Immeubles</span>
+              <h3 class="text-sm font-bold text-white">Parties communes & brillance des sols</h3>
+            </div>
+          </div>
+
+          <!-- Item 4 - Après travaux -->
+          <div class="gallery-item group relative rounded-3xl overflow-hidden cursor-pointer shadow-sm border border-clean-gray/30 h-72 reveal-fade-up" data-category="apres-travaux" data-title="Remise en état après travaux" data-img="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=85">
+            <img src="images/chantier.webp" alt="Chantier rénové et nettoyé par ALL CLEAN" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" loading="lazy">
+            <div class="absolute inset-0 bg-gradient-to-t from-clean-navyDark/85 via-clean-navyDark/25 to-transparent flex flex-col justify-end p-6">
+              <span class="text-xs uppercase tracking-wider font-semibold text-clean-gold">Après travaux</span>
+              <h3 class="text-sm font-bold text-white">Fin de chantier & élimination des résidus</h3>
+            </div>
+          </div>
+
+          <!-- Item 5 - Événements -->
+          <div class="gallery-item group relative rounded-3xl overflow-hidden cursor-pointer shadow-sm border border-clean-gray/30 h-72 reveal-fade-up" data-category="evenements" data-title="Salle de réception & conférence" data-img="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=1200&q=85">
+            <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=800&q=80" alt="Salle de gala et réception préparée pour un événement" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" loading="lazy">
+            <div class="absolute inset-0 bg-gradient-to-t from-clean-navyDark/85 via-clean-navyDark/25 to-transparent flex flex-col justify-end p-6">
+              <span class="text-xs uppercase tracking-wider font-semibold text-clean-gold">Événements</span>
+              <h3 class="text-sm font-bold text-white">Préparation et remise en état express</h3>
+            </div>
+          </div>
+
+          <!-- Item 6 - Bureaux / Vitres -->
+          <div class="gallery-item group relative rounded-3xl overflow-hidden cursor-pointer shadow-sm border border-clean-gray/30 h-72 reveal-fade-up" data-category="bureaux" data-title="Lavage de vitres et baies vitrées" data-img="https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=1200&q=85">
+            <img src="images/bureau.jpg" alt="Lavage des vitres et espaces de réunion propres" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" loading="lazy">
+            <div class="absolute inset-0 bg-gradient-to-t from-clean-navyDark/85 via-clean-navyDark/25 to-transparent flex flex-col justify-end p-6">
+              <span class="text-xs uppercase tracking-wider font-semibold text-clean-gold">Bureaux</span>
+              <h3 class="text-sm font-bold text-white">Transparence des vitres & finitions</h3>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================================================== -->
+    <!-- 12. TÉMOIGNAGES                                    -->
+    <!-- ================================================== -->
+    <section class="py-20 md:py-28 bg-clean-ivory border-t border-clean-gray/30">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-3xl mx-auto mb-16 reveal-fade-up">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-clean-navy/5 text-clean-navy text-xs font-bold uppercase tracking-wider mb-3">
+            <i data-lucide="star" class="w-3.5 h-3.5 text-clean-gold fill-clean-gold"></i>
+            <span>CONFIANCE ENTREPRISES</span>
+          </div>
+          <h2 class="text-2xl sm:text-3xl md:text-4xl font-display font-extrabold text-clean-navy">
+            Ce que disent nos clients
+          </h2>
+          <p class="mt-3 text-base text-clean-grayBlue">
+            Des retours authentiques de professionnels qui nous confient leurs locaux à Bamako
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          
+          <!-- Avis 1 -->
+          <div class="bg-white p-8 rounded-3xl border border-clean-gray/40 shadow-sm flex flex-col justify-between space-y-6 reveal-fade-up">
+            <div class="space-y-4">
+              <!-- Étoiles -->
+              <div class="flex items-center gap-1 text-clean-gold">
+                <i data-lucide="star" class="w-4 h-4 fill-clean-gold"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-clean-gold"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-clean-gold"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-clean-gold"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-clean-gold"></i>
+              </div>
+              <p class="text-xs sm:text-sm text-clean-navy/80 italic leading-relaxed">
+                « Depuis que nous avons confié l'entretien de nos bureaux à ALL CLEAN, l'ambiance de travail a changé. Les agents sont ponctuels, très discrets et le résultat est irréprochable chaque matin. »
+              </p>
+            </div>
+            <div class="pt-4 border-t border-clean-gray/30 flex items-center gap-3">
+              <div class="w-10 h-10 rounded-full bg-clean-navy text-clean-gold font-bold font-display flex items-center justify-center text-xs">
+                MD
+              </div>
+              <div>
+                <h3 class="text-xs font-bold text-clean-navy">Mamadou D.</h3>
+                <p class="text-[11px] text-clean-grayBlue">Directeur Général • Cabinet Conseil, Bamako</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Avis 2 -->
+          <div class="bg-white p-8 rounded-3xl border border-clean-gray/40 shadow-sm flex flex-col justify-between space-y-6 reveal-fade-up" style="transition-delay: 100ms;">
+            <div class="space-y-4">
+              <!-- Étoiles -->
+              <div class="flex items-center gap-1 text-clean-gold">
+                <i data-lucide="star" class="w-4 h-4 fill-clean-gold"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-clean-gold"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-clean-gold"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-clean-gold"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-clean-gold"></i>
+              </div>
+              <p class="text-xs sm:text-sm text-clean-navy/80 italic leading-relaxed">
+                « Nous avons fait appel à ALL CLEAN pour le nettoyage après rénovation de notre showroom à l'ACI 2000. Ils ont fait disparaître toute la poussière de chantier en un temps record. Impressionnant. »
+              </p>
+            </div>
+            <div class="pt-4 border-t border-clean-gray/30 flex items-center gap-3">
+              <div class="w-10 h-10 rounded-full bg-clean-gold text-clean-navy font-bold font-display flex items-center justify-center text-xs">
+                FT
+              </div>
+              <div>
+                <h3 class="text-xs font-bold text-clean-navy">Fatoumata T.</h3>
+                <p class="text-[11px] text-clean-grayBlue">Responsable Showroom & Commerce, ACI 2000</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Avis 3 -->
+          <div class="bg-white p-8 rounded-3xl border border-clean-gray/40 shadow-sm flex flex-col justify-between space-y-6 reveal-fade-up" style="transition-delay: 200ms;">
+            <div class="space-y-4">
+              <!-- Étoiles -->
+              <div class="flex items-center gap-1 text-clean-gold">
+                <i data-lucide="star" class="w-4 h-4 fill-clean-gold"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-clean-gold"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-clean-gold"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-clean-gold"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-clean-gold"></i>
+              </div>
+              <p class="text-xs sm:text-sm text-clean-navy/80 italic leading-relaxed">
+                « Un vrai soulagement pour notre syndic d'immeuble. Les résidents sont ravis de la propreté constante des paliers et des ascenseurs. Une collaboration professionnelle et de confiance. »
+              </p>
+            </div>
+            <div class="pt-4 border-t border-clean-gray/30 flex items-center gap-3">
+              <div class="w-10 h-10 rounded-full bg-clean-navy text-clean-gold font-bold font-display flex items-center justify-center text-xs">
+                OK
+              </div>
+              <div>
+                <h3 class="text-xs font-bold text-clean-navy">Ousmane K.</h3>
+                <p class="text-[11px] text-clean-grayBlue">Gestionnaire de Copropriété, Bamako</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================================================== -->
+    <!-- 13. FAQ (ACCORDÉON INTERACTIF)                     -->
+    <!-- ================================================== -->
+    <section id="faq" class="py-20 md:py-28 bg-white">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-3xl mx-auto mb-16 reveal-fade-up">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-clean-navy/5 text-clean-navy text-xs font-bold uppercase tracking-wider mb-3">
+            <i data-lucide="message-square" class="w-3.5 h-3.5 text-clean-gold"></i>
+            <span>RÉPONSES CLAIRES</span>
+          </div>
+          <h2 class="text-2xl sm:text-3xl md:text-4xl font-display font-extrabold text-clean-navy">
+            Foire Aux Questions
+          </h2>
+          <p class="mt-3 text-base text-clean-grayBlue">
+            Les réponses aux questions les plus courantes sur nos prestations à Bamako
+          </p>
+        </div>
+
+        <!-- Accordéon -->
+        <div class="space-y-4 reveal-fade-up">
+          
+          <!-- Question 1 -->
+          <div class="faq-item rounded-2xl border border-clean-gray/40 bg-clean-ivory/40 overflow-hidden transition-all duration-200">
+            <button type="button" class="faq-btn w-full p-5 text-left flex items-center justify-between gap-4 focus:outline-none" aria-expanded="false">
+              <span class="font-display font-bold text-sm sm:text-base text-clean-navy">Quels types de locaux nettoyez-vous ?</span>
+              <span class="faq-icon w-8 h-8 rounded-full bg-white flex items-center justify-center text-clean-navy flex-shrink-0 transition-transform duration-300">
+                <i data-lucide="chevron-down" class="w-4 h-4"></i>
+              </span>
+            </button>
+            <div class="faq-content hidden px-5 pb-5 text-xs sm:text-sm text-clean-navy/70 leading-relaxed border-t border-clean-gray/20 pt-3">
+              Nous intervenons dans tous les types de bâtiments professionnels à Bamako : bureaux, sièges d'entreprises, institutions et ministères, magasins et commerces, showrooms, immeubles d'affaires et de copropriétés, villas de haut standing et chantiers en phase de livraison.
+            </div>
+          </div>
+
+          <!-- Question 2 -->
+          <div class="faq-item rounded-2xl border border-clean-gray/40 bg-clean-ivory/40 overflow-hidden transition-all duration-200">
+            <button type="button" class="faq-btn w-full p-5 text-left flex items-center justify-between gap-4 focus:outline-none" aria-expanded="false">
+              <span class="font-display font-bold text-sm sm:text-base text-clean-navy">Proposez-vous des interventions ponctuelles ?</span>
+              <span class="faq-icon w-8 h-8 rounded-full bg-white flex items-center justify-center text-clean-navy flex-shrink-0 transition-transform duration-300">
+                <i data-lucide="chevron-down" class="w-4 h-4"></i>
+              </span>
+            </button>
+            <div class="faq-content hidden px-5 pb-5 text-xs sm:text-sm text-clean-navy/70 leading-relaxed border-t border-clean-gray/20 pt-3">
+              Oui, tout à fait. En plus de nos contrats d'entretien récurrents, nous réalisons des interventions ponctuelles : grand nettoyage de printemps, désinfection approfondie, nettoyage avant audit ou visite de délégations, ou remise en état immédiate.
+            </div>
+          </div>
+
+          <!-- Question 3 -->
+          <div class="faq-item rounded-2xl border border-clean-gray/40 bg-clean-ivory/40 overflow-hidden transition-all duration-200">
+            <button type="button" class="faq-btn w-full p-5 text-left flex items-center justify-between gap-4 focus:outline-none" aria-expanded="false">
+              <span class="font-display font-bold text-sm sm:text-base text-clean-navy">Proposez-vous des contrats d'entretien régulier ?</span>
+              <span class="faq-icon w-8 h-8 rounded-full bg-white flex items-center justify-center text-clean-navy flex-shrink-0 transition-transform duration-300">
+                <i data-lucide="chevron-down" class="w-4 h-4"></i>
+              </span>
+            </button>
+            <div class="faq-content hidden px-5 pb-5 text-xs sm:text-sm text-clean-navy/70 leading-relaxed border-t border-clean-gray/20 pt-3">
+              Absolument. Nos contrats d'entretien régulier sont entièrement sur mesure (quotidiens, hebdomadaires ou bi-mensuels). Ils prévoient un cahier des charges clair, des agents dédiés et des contrôles qualité réguliers par un superviseur ALL CLEAN.
+            </div>
+          </div>
+
+          <!-- Question 4 -->
+          <div class="faq-item rounded-2xl border border-clean-gray/40 bg-clean-ivory/40 overflow-hidden transition-all duration-200">
+            <button type="button" class="faq-btn w-full p-5 text-left flex items-center justify-between gap-4 focus:outline-none" aria-expanded="false">
+              <span class="font-display font-bold text-sm sm:text-base text-clean-navy">Intervenez-vous après des travaux ?</span>
+              <span class="faq-icon w-8 h-8 rounded-full bg-white flex items-center justify-center text-clean-navy flex-shrink-0 transition-transform duration-300">
+                <i data-lucide="chevron-down" class="w-4 h-4"></i>
+              </span>
+            </button>
+            <div class="faq-content hidden px-5 pb-5 text-xs sm:text-sm text-clean-navy/70 leading-relaxed border-t border-clean-gray/20 pt-3">
+              C'est l'une de nos grandes spécialités. Le nettoyage de fin de chantier exige des méthodes précises pour éliminer les poussières de plâtre, traces de colle ou peinture sans rayer les revêtements neufs. Nous livrons des locaux prêts à l'aménagement direct.
+            </div>
+          </div>
+
+          <!-- Question 5 -->
+          <div class="faq-item rounded-2xl border border-clean-gray/40 bg-clean-ivory/40 overflow-hidden transition-all duration-200">
+            <button type="button" class="faq-btn w-full p-5 text-left flex items-center justify-between gap-4 focus:outline-none" aria-expanded="false">
+              <span class="font-display font-bold text-sm sm:text-base text-clean-navy">Comment demander un devis ?</span>
+              <span class="faq-icon w-8 h-8 rounded-full bg-white flex items-center justify-center text-clean-navy flex-shrink-0 transition-transform duration-300">
+                <i data-lucide="chevron-down" class="w-4 h-4"></i>
+              </span>
+            </button>
+            <div class="faq-content hidden px-5 pb-5 text-xs sm:text-sm text-clean-navy/70 leading-relaxed border-t border-clean-gray/20 pt-3">
+              Vous pouvez remplir directement notre formulaire en bas de page ou nous contacter par téléphone au +223 66 73 66 85 / +223 70 03 97 02, ainsi que via WhatsApp. Nous effectuons une visite gratuite de vos locaux si nécessaire et vous transmettons une proposition détaillée sous 24h.
+            </div>
+          </div>
+
+          <!-- Question 6 -->
+          <div class="faq-item rounded-2xl border border-clean-gray/40 bg-clean-ivory/40 overflow-hidden transition-all duration-200">
+            <button type="button" class="faq-btn w-full p-5 text-left flex items-center justify-between gap-4 focus:outline-none" aria-expanded="false">
+              <span class="font-display font-bold text-sm sm:text-base text-clean-navy">Dans quelles zones intervenez-vous ?</span>
+              <span class="faq-icon w-8 h-8 rounded-full bg-white flex items-center justify-center text-clean-navy flex-shrink-0 transition-transform duration-300">
+                <i data-lucide="chevron-down" class="w-4 h-4"></i>
+              </span>
+            </button>
+            <div class="faq-content hidden px-5 pb-5 text-xs sm:text-sm text-clean-navy/70 leading-relaxed border-t border-clean-gray/20 pt-3">
+              Nous couvrons l'ensemble des communes et quartiers de Bamako (ACI 2000, Badalabougou, Hamdallaye, Quinzambougou, Faladié, Sotuba, Hippodrome, etc.) ainsi que les zones industrielles et périphériques selon les projets.
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================================================== -->
+    <!-- 14. FORMULAIRE DE DEMANDE DE DEVIS (SECTION CLÉ)   -->
+    <!-- ================================================== -->
+    <section id="devis" class="py-20 md:py-28 bg-clean-navy text-white relative overflow-hidden">
+      <!-- Arrière-plan graphique -->
+      <div class="absolute top-0 right-0 w-96 h-96 bg-clean-gold/10 rounded-full blur-3xl pointer-events-none"></div>
+      <div class="absolute bottom-0 left-0 w-80 h-80 bg-clean-navyDark rounded-full blur-2xl pointer-events-none"></div>
+
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        
+        <div class="text-center max-w-3xl mx-auto mb-14 reveal-fade-up">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 text-clean-gold text-xs font-bold uppercase tracking-wider mb-3">
+            <i data-lucide="send" class="w-3.5 h-3.5 text-clean-gold"></i>
+            <span>RÉPONSE RAPIDE SOUS 24H</span>
+          </div>
+          <h2 class="text-2xl sm:text-3xl md:text-4xl font-display font-extrabold text-white">
+            Demandez votre devis
+          </h2>
+          <p class="mt-3 text-sm sm:text-base text-clean-gray">
+            Décrivez-nous votre besoin. Notre équipe vous répondra avec une proposition adaptée et sans engagement.
+          </p>
+        </div>
+
+        <!-- Boîte du formulaire -->
+        <div class="bg-white text-clean-navy rounded-3xl p-6 sm:p-10 md:p-12 shadow-premium reveal-fade-up">
+          
+          <!-- Message de confirmation après soumission -->
+          <div id="quote-success-msg" class="hidden p-6 rounded-2xl bg-emerald-50 border border-emerald-200 text-emerald-900 mb-8 text-center space-y-2">
+            <div class="w-12 h-12 bg-emerald-100 text-emerald-600 rounded-full flex items-center justify-center mx-auto mb-2">
+              <i data-lucide="check-circle-2" class="w-6 h-6"></i>
+            </div>
+            <h3 class="text-base font-bold font-display">Demande transmise avec succès !</h3>
+            <p class="text-xs sm:text-sm text-emerald-800">
+              Merci ! Votre demande a bien été prise en compte. Notre équipe vous contactera prochainement pour vous transmettre une proposition détaillée.
+            </p>
+          </div>
+
+          <form id="quote-form" novalidate class="space-y-6">
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+              
+              <!-- Nom complet -->
+              <div>
+                <label for="quote-name" class="block text-xs font-bold uppercase tracking-wider text-clean-navy mb-2">
+                  Nom complet <span class="text-amber-600">*</span>
+                </label>
+                <input 
+                  type="text" 
+                  id="quote-name" 
+                  name="nom_complet" 
+                  required
+                  placeholder="Ex : Moussa Diarra" 
+                  class="w-full px-4 py-3 rounded-xl border border-clean-gray focus:border-clean-gold focus:ring-1 focus:ring-clean-gold text-sm text-clean-navy placeholder-clean-grayBlue/60 bg-clean-ivory/30 transition-colors"
+                >
+                <p class="error-text hidden text-[11px] text-red-600 mt-1">Veuillez renseigner votre nom complet.</p>
+              </div>
+
+              <!-- Téléphone -->
+              <div>
+                <label for="quote-phone" class="block text-xs font-bold uppercase tracking-wider text-clean-navy mb-2">
+                  Téléphone <span class="text-amber-600">*</span>
+                </label>
+                <input 
+                  type="tel" 
+                  id="quote-phone" 
+                  name="telephone" 
+                  required
+                  placeholder="Ex : +223 66 73 66 85" 
+                  class="w-full px-4 py-3 rounded-xl border border-clean-gray focus:border-clean-gold focus:ring-1 focus:ring-clean-gold text-sm text-clean-navy placeholder-clean-grayBlue/60 bg-clean-ivory/30 transition-colors"
+                >
+                <p class="error-text hidden text-[11px] text-red-600 mt-1">Veuillez renseigner un numéro de téléphone valide.</p>
+              </div>
+
+              <!-- Email -->
+              <div>
+                <label for="quote-email" class="block text-xs font-bold uppercase tracking-wider text-clean-navy mb-2">
+                  Email
+                </label>
+                <input 
+                  type="email" 
+                  id="quote-email" 
+                  name="email" 
+                  placeholder="Ex : contact@entreprise.ml" 
+                  class="w-full px-4 py-3 rounded-xl border border-clean-gray focus:border-clean-gold focus:ring-1 focus:ring-clean-gold text-sm text-clean-navy placeholder-clean-grayBlue/60 bg-clean-ivory/30 transition-colors"
+                >
+              </div>
+
+              <!-- Entreprise -->
+              <div>
+                <label for="quote-company" class="block text-xs font-bold uppercase tracking-wider text-clean-navy mb-2">
+                  Entreprise / Organisation
+                </label>
+                <input 
+                  type="text" 
+                  id="quote-company" 
+                  name="entreprise" 
+                  placeholder="Ex : Sahel Invest S.A." 
+                  class="w-full px-4 py-3 rounded-xl border border-clean-gray focus:border-clean-gold focus:ring-1 focus:ring-clean-gold text-sm text-clean-navy placeholder-clean-grayBlue/60 bg-clean-ivory/30 transition-colors"
+                >
+              </div>
+
+              <!-- Type de service -->
+              <div>
+                <label for="quote-service" class="block text-xs font-bold uppercase tracking-wider text-clean-navy mb-2">
+                  Type de service <span class="text-amber-600">*</span>
+                </label>
+                <select 
+                  id="quote-service" 
+                  name="service" 
+                  required
+                  class="w-full px-4 py-3 rounded-xl border border-clean-gray focus:border-clean-gold focus:ring-1 focus:ring-clean-gold text-sm text-clean-navy bg-clean-ivory/30 transition-colors"
+                >
+                  <option value="">Sélectionnez un service...</option>
+                  <option value="Nettoyage de bureaux">Nettoyage de bureaux</option>
+                  <option value="Nettoyage de commerces">Nettoyage de commerces</option>
+                  <option value="Entretien d'immeubles">Entretien d'immeubles</option>
+                  <option value="Nettoyage après travaux">Nettoyage après travaux</option>
+                  <option value="Nettoyage avant/après événement">Nettoyage avant/après événement</option>
+                  <option value="Entretien régulier">Entretien régulier</option>
+                  <option value="Entretien ponctuel">Entretien ponctuel</option>
+                  <option value="Autre">Autre service personnalisé</option>
+                </select>
+                <p class="error-text hidden text-[11px] text-red-600 mt-1">Veuillez sélectionner un type de service.</p>
+              </div>
+
+              <!-- Type de lieu -->
+              <div>
+                <label for="quote-location-type" class="block text-xs font-bold uppercase tracking-wider text-clean-navy mb-2">
+                  Type de lieu <span class="text-amber-600">*</span>
+                </label>
+                <select 
+                  id="quote-location-type" 
+                  name="type_lieu" 
+                  required
+                  class="w-full px-4 py-3 rounded-xl border border-clean-gray focus:border-clean-gold focus:ring-1 focus:ring-clean-gold text-sm text-clean-navy bg-clean-ivory/30 transition-colors"
+                >
+                  <option value="">Sélectionnez le type d'espace...</option>
+                  <option value="Bureau">Bureau</option>
+                  <option value="Commerce">Commerce</option>
+                  <option value="Administration">Administration</option>
+                  <option value="Immeuble">Immeuble</option>
+                  <option value="Résidence">Résidence</option>
+                  <option value="Chantier">Chantier</option>
+                  <option value="Salle / événement">Salle / événement</option>
+                  <option value="Autre">Autre</option>
+                </select>
+                <p class="error-text hidden text-[11px] text-red-600 mt-1">Veuillez indiquer le type de lieu.</p>
+              </div>
+
+              <!-- Superficie approximative -->
+              <div>
+                <label for="quote-surface" class="block text-xs font-bold uppercase tracking-wider text-clean-navy mb-2">
+                  Superficie approximative (m²)
+                </label>
+                <input 
+                  type="text" 
+                  id="quote-surface" 
+                  name="superficie" 
+                  placeholder="Ex : 180 m² ou 3 étages" 
+                  class="w-full px-4 py-3 rounded-xl border border-clean-gray focus:border-clean-gold focus:ring-1 focus:ring-clean-gold text-sm text-clean-navy placeholder-clean-grayBlue/60 bg-clean-ivory/30 transition-colors"
+                >
+              </div>
+
+              <!-- Fréquence souhaitée -->
+              <div>
+                <label for="quote-frequency" class="block text-xs font-bold uppercase tracking-wider text-clean-navy mb-2">
+                  Fréquence souhaitée <span class="text-amber-600">*</span>
+                </label>
+                <select 
+                  id="quote-frequency" 
+                  name="frequence" 
+                  required
+                  class="w-full px-4 py-3 rounded-xl border border-clean-gray focus:border-clean-gold focus:ring-1 focus:ring-clean-gold text-sm text-clean-navy bg-clean-ivory/30 transition-colors"
+                >
+                  <option value="">Sélectionnez une fréquence...</option>
+                  <option value="Ponctuel">Intervention ponctuelle</option>
+                  <option value="Quotidien">Quotidien (du lundi au vendredi)</option>
+                  <option value="Hebdomadaire">Hebdomadaire (1 à 3 fois par semaine)</option>
+                  <option value="Mensuel">Mensuel</option>
+                  <option value="À définir">À définir ensemble</option>
+                </select>
+                <p class="error-text hidden text-[11px] text-red-600 mt-1">Veuillez choisir une fréquence.</p>
+              </div>
+
+            </div>
+
+            <!-- Date souhaitée -->
+            <div>
+              <label for="quote-date" class="block text-xs font-bold uppercase tracking-wider text-clean-navy mb-2">
+                Date d'intervention souhaitée
+              </label>
+              <input 
+                type="date" 
+                id="quote-date" 
+                name="date_souhaitee" 
+                class="w-full px-4 py-3 rounded-xl border border-clean-gray focus:border-clean-gold focus:ring-1 focus:ring-clean-gold text-sm text-clean-navy bg-clean-ivory/30 transition-colors"
+              >
+            </div>
+
+            <!-- Message / Besoins particuliers -->
+            <div>
+              <label for="quote-message" class="block text-xs font-bold uppercase tracking-wider text-clean-navy mb-2">
+                Message / Besoins particuliers
+              </label>
+              <textarea 
+                id="quote-message" 
+                name="message" 
+                rows="4" 
+                placeholder="Précisez votre demande (ex : nettoyage vitres en hauteur, décapage sols en marbre, horaires particuliers...)" 
+                class="w-full px-4 py-3 rounded-xl border border-clean-gray focus:border-clean-gold focus:ring-1 focus:ring-clean-gold text-sm text-clean-navy placeholder-clean-grayBlue/60 bg-clean-ivory/30 transition-colors resize-y"
+              ></textarea>
+            </div>
+
+            <!-- Checkbox accord -->
+            <div class="pt-2">
+              <label class="flex items-start gap-3 cursor-pointer">
+                <input 
+                  type="checkbox" 
+                  id="quote-consent" 
+                  name="consentement" 
+                  required
+                  class="mt-1 w-4 h-4 rounded text-clean-gold focus:ring-clean-gold border-clean-gray"
+                >
+                <span class="text-xs text-clean-navy/80 leading-relaxed">
+                  J'accepte d'être recontacté(e) par l'équipe ALL CLEAN concernant ma demande de devis. <span class="text-amber-600">*</span>
+                </span>
+              </label>
+              <p class="error-text hidden text-[11px] text-red-600 mt-1">Veuillez cocher cette case pour valider la demande.</p>
+            </div>
+
+            <!-- Bouton de soumission -->
+            <div class="pt-4">
+              <button 
+                type="submit" 
+                class="w-full sm:w-auto px-9 py-4 rounded-full bg-clean-gold text-clean-navy font-bold font-display uppercase tracking-wider text-sm shadow-gold hover:bg-clean-goldDark transition-all duration-300 flex items-center justify-center gap-2 hover:-translate-y-0.5"
+              >
+                <span>Demander mon devis</span>
+                <i data-lucide="send" class="w-4 h-4"></i>
+              </button>
+            </div>
+
+          </form>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================================================== -->
+    <!-- 15. CONTACT (COORDONNÉES & MESSAGE DIRECT)        -->
+    <!-- ================================================== -->
+    <section id="contact" class="py-20 md:py-28 bg-clean-ivory">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
+          
+          <!-- Infos de contact à Gauche -->
+          <div class="lg:col-span-5 space-y-8 reveal-fade-up">
+            <div>
+              <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-clean-navy/5 text-clean-navy text-xs font-bold uppercase tracking-wider mb-3">
+                <i data-lucide="phone" class="w-3.5 h-3.5 text-clean-gold"></i>
+                <span>CONTACT DIRECT</span>
+              </div>
+              <h2 class="text-2xl sm:text-3xl md:text-4xl font-display font-extrabold text-clean-navy">
+                Parlons de votre besoin
+              </h2>
+              <p class="mt-3 text-sm text-clean-grayBlue leading-relaxed">
+                Notre service client est à votre écoute pour vous conseiller et vous accompagner avec la plus grande réactivité.
+              </p>
+            </div>
+
+            <div class="space-y-4">
+              
+              <!-- Téléphone Card -->
+              <div class="p-5 rounded-2xl bg-white border border-clean-gray/40 shadow-sm flex items-start gap-4">
+                <div class="w-12 h-12 rounded-xl bg-clean-navy text-clean-gold flex-shrink-0 flex items-center justify-center">
+                  <i data-lucide="phone" class="w-5 h-5"></i>
+                </div>
+                <div>
+                  <h3 class="text-xs font-bold uppercase tracking-wider text-clean-grayBlue">Téléphones directs</h3>
+                  <div class="mt-1 space-y-0.5">
+                    <a href="tel:+22366736685" class="block text-sm font-bold text-clean-navy hover:text-clean-gold transition-colors">
+                      +223 66 73 66 85
+                    </a>
+                    <a href="tel:+22370039702" class="block text-sm font-bold text-clean-navy hover:text-clean-gold transition-colors">
+                      +223 70 03 97 02
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Localisation Card -->
+              <div class="p-5 rounded-2xl bg-white border border-clean-gray/40 shadow-sm flex items-start gap-4">
+                <div class="w-12 h-12 rounded-xl bg-clean-navy text-clean-gold flex-shrink-0 flex items-center justify-center">
+                  <i data-lucide="map-pin" class="w-5 h-5"></i>
+                </div>
+                <div>
+                  <h3 class="text-xs font-bold uppercase tracking-wider text-clean-grayBlue">Localisation</h3>
+                  <p class="mt-1 text-sm font-bold text-clean-navy">
+                    Bamako, Mali
+                  </p>
+                  <p class="text-xs text-clean-grayBlue">
+                    Intervention sur l'ensemble du district et zones environnantes
+                  </p>
+                </div>
+              </div>
+
+              <!-- WhatsApp Card -->
+              <div class="p-5 rounded-2xl bg-white border border-clean-gray/40 shadow-sm flex items-start gap-4">
+                <div class="w-12 h-12 rounded-xl bg-[#25D366] text-white flex-shrink-0 flex items-center justify-center">
+                  <i data-lucide="message-square" class="w-5 h-5"></i>
+                </div>
+                <div>
+                  <h3 class="text-xs font-bold uppercase tracking-wider text-clean-grayBlue">WhatsApp Business</h3>
+                  <a href="https://wa.me/22366736685?text=Bonjour%20ALL%20CLEAN%2C%20je%20souhaite%20obtenir%20des%20informations%20sur%20vos%20services%20de%20nettoyage." target="_blank" rel="noopener noreferrer" class="mt-1 inline-block text-sm font-bold text-[#25D366] hover:underline">
+                    Démarrer une discussion instantanée
+                  </a>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- Formulaire de contact direct à Droite -->
+          <div class="lg:col-span-7 bg-white p-8 sm:p-10 rounded-3xl border border-clean-gray/40 shadow-sm reveal-fade-up">
+            
+            <h3 class="text-lg font-bold font-display text-clean-navy mb-6">
+              Envoyez-nous un message
+            </h3>
+
+            <!-- Message succès contact -->
+            <div id="contact-success-msg" class="hidden p-4 rounded-xl bg-emerald-50 border border-emerald-200 text-emerald-800 text-xs sm:text-sm mb-6">
+              Votre message a été envoyé avec succès. Nous vous répondrons dans les plus brefs délais.
+            </div>
+
+            <form id="contact-form" novalidate class="space-y-4">
+              
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div>
+                  <label for="contact-name" class="block text-xs font-bold text-clean-navy mb-1">Nom *</label>
+                  <input type="text" id="contact-name" name="nom" required placeholder="Votre nom" class="w-full px-4 py-2.5 rounded-xl border border-clean-gray text-xs sm:text-sm focus:border-clean-gold focus:ring-1 focus:ring-clean-gold">
+                  <p class="error-text hidden text-[11px] text-red-600 mt-1">Champ requis.</p>
+                </div>
+                <div>
+                  <label for="contact-phone" class="block text-xs font-bold text-clean-navy mb-1">Téléphone *</label>
+                  <input type="tel" id="contact-phone" name="telephone" required placeholder="Votre numéro" class="w-full px-4 py-2.5 rounded-xl border border-clean-gray text-xs sm:text-sm focus:border-clean-gold focus:ring-1 focus:ring-clean-gold">
+                  <p class="error-text hidden text-[11px] text-red-600 mt-1">Champ requis.</p>
+                </div>
+              </div>
+
+              <div>
+                <label for="contact-email" class="block text-xs font-bold text-clean-navy mb-1">Email</label>
+                <input type="email" id="contact-email" name="email" placeholder="votre.email@domaine.com" class="w-full px-4 py-2.5 rounded-xl border border-clean-gray text-xs sm:text-sm focus:border-clean-gold focus:ring-1 focus:ring-clean-gold">
+              </div>
+
+              <div>
+                <label for="contact-subject" class="block text-xs font-bold text-clean-navy mb-1">Sujet *</label>
+                <input type="text" id="contact-subject" name="sujet" required placeholder="Demande de renseignements, partenariat..." class="w-full px-4 py-2.5 rounded-xl border border-clean-gray text-xs sm:text-sm focus:border-clean-gold focus:ring-1 focus:ring-clean-gold">
+                <p class="error-text hidden text-[11px] text-red-600 mt-1">Champ requis.</p>
+              </div>
+
+              <div>
+                <label for="contact-message" class="block text-xs font-bold text-clean-navy mb-1">Message *</label>
+                <textarea id="contact-message" name="message" rows="4" required placeholder="Expliquez-nous brièvement votre besoin..." class="w-full px-4 py-2.5 rounded-xl border border-clean-gray text-xs sm:text-sm focus:border-clean-gold focus:ring-1 focus:ring-clean-gold resize-y"></textarea>
+                <p class="error-text hidden text-[11px] text-red-600 mt-1">Champ requis.</p>
+              </div>
+
+              <div class="pt-2">
+                <button type="submit" class="px-8 py-3 rounded-full bg-clean-navy text-white hover:bg-clean-navyDark text-xs font-bold uppercase tracking-wider transition-colors flex items-center gap-2">
+                  <span>Envoyer le message</span>
+                  <i data-lucide="send" class="w-3.5 h-3.5 text-clean-gold"></i>
+                </button>
+              </div>
+
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================================================== -->
+    <!-- 16. CTA FINAL                                      -->
+    <!-- ================================================== -->
+    <section class="py-20 md:py-24 bg-clean-navy text-white relative overflow-hidden text-center">
+      <!-- Éléments dorés décoratifs -->
+      <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-clean-gold/15 via-transparent to-transparent pointer-events-none"></div>
+
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 space-y-8 reveal-fade-up">
+
+        <h2 class="text-3xl sm:text-4xl md:text-5xl font-display font-extrabold text-white tracking-tight">
+          Votre espace mérite le meilleur.
+        </h2>
+
+        <p class="text-base sm:text-lg text-clean-gray max-w-2xl mx-auto leading-relaxed">
+          Confiez votre environnement à une équipe qui fait de la propreté une véritable signature.
+        </p>
+
+        <div class="pt-4 flex flex-col sm:flex-row items-center justify-center gap-4">
+          <a href="#devis" class="w-full sm:w-auto px-9 py-4 rounded-full bg-clean-gold text-clean-navy font-bold font-display uppercase tracking-wider text-xs shadow-gold hover:bg-clean-goldDark transition-all duration-300 transform hover:-translate-y-0.5">
+            Demander un devis
+          </a>
+          <a href="#contact" class="w-full sm:w-auto px-9 py-4 rounded-full bg-white/10 hover:bg-white/20 text-white font-semibold text-xs uppercase tracking-wider transition-colors border border-white/20">
+            Nous contacter
+          </a>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- ================================================== -->
+  <!-- 17. FOOTER                                         -->
+  <!-- ================================================== -->
+  <footer class="bg-clean-navyDark text-white pt-16 pb-12 border-t border-white/10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 lg:gap-12 pb-12 border-b border-white/10">
+        
+        <!-- Logo & Présentation (4 colonnes) -->
+        <div class="lg:col-span-4 space-y-4">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-xl bg-clean-navy flex items-center justify-center text-clean-gold border border-clean-gold/40">
+              <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2L14.4 8.6L21 11L14.4 13.4L12 20L9.6 13.4L3 11L9.6 8.6L12 2Z" fill="#DAB051" />
+              </svg>
+            </div>
+            <span class="font-display font-bold text-xl tracking-wider text-white">
+              ALL <span class="text-clean-gold">CLEAN</span>
+            </span>
+          </div>
+          <p class="text-xs text-clean-gray leading-relaxed max-w-sm">
+            « Quand la propreté devient une signature »
+          </p>
+          <p class="text-xs text-clean-grayBlue leading-relaxed">
+            Entreprise professionnelle de nettoyage et d'entretien d'espaces professionnels, commerciaux et institutionnels à Bamako, Mali.
+          </p>
+        </div>
+
+        <!-- Navigation (2 colonnes) -->
+        <div class="lg:col-span-2 space-y-3">
+          <h3 class="text-xs font-bold uppercase tracking-wider text-clean-gold font-display">Navigation</h3>
+          <ul class="space-y-2 text-xs text-clean-gray">
+            <li><a href="#hero" class="hover:text-clean-gold transition-colors">Accueil</a></li>
+            <li><a href="#apropos" class="hover:text-clean-gold transition-colors">À propos</a></li>
+            <li><a href="#services" class="hover:text-clean-gold transition-colors">Services</a></li>
+            <li><a href="#realisations" class="hover:text-clean-gold transition-colors">Réalisations</a></li>
+            <li><a href="#faq" class="hover:text-clean-gold transition-colors">FAQ</a></li>
+            <li><a href="#contact" class="hover:text-clean-gold transition-colors">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Services (3 colonnes) -->
+        <div class="lg:col-span-3 space-y-3">
+          <h3 class="text-xs font-bold uppercase tracking-wider text-clean-gold font-display">Prestations</h3>
+          <ul class="space-y-2 text-xs text-clean-gray">
+            <li><a href="#services" class="hover:text-clean-gold transition-colors">Nettoyage de bureaux</a></li>
+            <li><a href="#services" class="hover:text-clean-gold transition-colors">Nettoyage commercial</a></li>
+            <li><a href="#services" class="hover:text-clean-gold transition-colors">Entretien d'immeubles</a></li>
+            <li><a href="#services" class="hover:text-clean-gold transition-colors">Nettoyage après travaux</a></li>
+            <li><a href="#services" class="hover:text-clean-gold transition-colors">Entretien avant/après événement</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact (3 colonnes) -->
+        <div class="lg:col-span-3 space-y-3">
+          <h3 class="text-xs font-bold uppercase tracking-wider text-clean-gold font-display">Contactez-nous</h3>
+          <ul class="space-y-2.5 text-xs text-clean-gray">
+            <li class="flex items-center gap-2">
+              <i data-lucide="phone" class="w-4 h-4 text-clean-gold flex-shrink-0"></i>
+              <a href="tel:+22366736685" class="hover:text-clean-gold transition-colors">+223 66 73 66 85</a>
+            </li>
+            <li class="flex items-center gap-2">
+              <i data-lucide="phone" class="w-4 h-4 text-clean-gold flex-shrink-0"></i>
+              <a href="tel:+22370039702" class="hover:text-clean-gold transition-colors">+223 70 03 97 02</a>
+            </li>
+            <li class="flex items-center gap-2">
+              <i data-lucide="map-pin" class="w-4 h-4 text-clean-gold flex-shrink-0"></i>
+              <span>Bamako, Mali</span>
+            </li>
+            <li class="flex items-center gap-2 pt-2">
+              <a href="https://wa.me/22366736685?text=Bonjour%20ALL%20CLEAN%2C%20je%20souhaite%20obtenir%20des%20informations%20sur%20vos%20services%20de%20nettoyage." target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-[#25D366]/30 text-emerald-400 border border-emerald-500/40 text-[11px] font-semibold hover:bg-[#25D366] hover:text-white transition-colors">
+                <i data-lucide="message-square" class="w-3.5 h-3.5"></i>
+                <span>WhatsApp Direct</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Bas du footer -->
+      <div class="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-clean-grayBlue gap-4">
+        <p>© 2026 ALL CLEAN. Tous droits réservés.</p>
+        <p class="text-[11px]">Bamako • Mali — Quand la propreté devient une signature.</p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ================================================== -->
+  <!-- 18. BOUTON FLOTTANT WHATSAPP                       -->
+  <!-- ================================================== -->
+  <aside aria-label="Assistance instantanée WhatsApp">
+    <a id="floatingWhatsApp" href="https://wa.me/22366736685?text=Bonjour%20ALL%20CLEAN%2C%20je%20souhaite%20obtenir%20des%20informations%20sur%20vos%20services%20de%20nettoyage." target="_blank" rel="noopener noreferrer"
+        aria-label="Commander directement sur WhatsApp"
+        class="wa-floating-btn fixed bottom-6 right-6 z-40 w-14 h-14 rounded-full bg-[#25D366] text-white flex items-center justify-center text-2xl shadow-xl hover:scale-110 transition-transform duration-300">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+  </aside>
+
+  <!-- ================================================== -->
+  <!-- 19. LIGHTBOX MODALE                                -->
+  <!-- ================================================== -->
+  <div id="lightbox-modal" class="fixed inset-0 z-50 bg-clean-navyDark/90 backdrop-blur-md hidden items-center justify-center p-4 sm:p-6" role="dialog" aria-modal="true" aria-label="Visionneuse d'image de réalisation">
+    
+    <!-- Bouton Fermer -->
+    <button id="lightbox-close" type="button" class="absolute top-5 right-5 text-white/80 hover:text-white p-2 rounded-full bg-white/10 hover:bg-white/20 transition-colors focus:outline-none" aria-label="Fermer la visionneuse">
+      <i data-lucide="x" class="w-6 h-6"></i>
+    </button>
+
+    <!-- Bouton Précédent -->
+    <button id="lightbox-prev" type="button" class="absolute left-4 sm:left-6 text-white/80 hover:text-white p-3 rounded-full bg-white/10 hover:bg-white/20 transition-colors focus:outline-none" aria-label="Image précédente">
+      <i data-lucide="chevron-left" class="w-6 h-6"></i>
+    </button>
+
+    <!-- Conteneur Image & Légende -->
+    <div class="max-w-4xl max-h-[85vh] flex flex-col items-center">
+      <img id="lightbox-image" src="" alt="Agrandissement de la réalisation ALL CLEAN" class="max-h-[75vh] w-auto rounded-2xl shadow-2xl object-contain border border-white/10">
+      <p id="lightbox-caption" class="mt-3 text-sm text-clean-gray font-display font-medium text-center"></p>
+    </div>
+
+    <!-- Bouton Suivant -->
+    <button id="lightbox-next" type="button" class="absolute right-4 sm:right-6 text-white/80 hover:text-white p-3 rounded-full bg-white/10 hover:bg-white/20 transition-colors focus:outline-none" aria-label="Image suivante">
+      <i data-lucide="chevron-right" class="w-6 h-6"></i>
+    </button>
+  </div>
+
+  <!-- ================================================== -->
+  <!-- 20. JAVASCRIPT VANILLA                             -->
+  <!-- ================================================== -->
+  <script>
+    // Configuration modifiable
+    const WHATSAPP_CONFIG = {
+      phone: '22366736685',
+      message: 'Bonjour ALL CLEAN, je souhaite obtenir des informations sur vos services de nettoyage.'
+    };
+
+    document.addEventListener('DOMContentLoaded', () => {
+      // 1. Initialiser les icônes Lucide
+      lucide.createIcons();
+
+      // 2. Gestion du Header sticky et effet de scroll
+      const mainHeader = document.getElementById('main-header');
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > 30) {
+          mainHeader.classList.add('bg-white/95', 'shadow-premium', 'border-clean-gray/30');
+          mainHeader.classList.remove('bg-white/80');
+        } else {
+          mainHeader.classList.remove('bg-white/95', 'shadow-premium');
+          mainHeader.classList.add('bg-white/80');
+        }
+      });
+
+      // 3. Menu Mobile (Ouvrir / Fermer)
+      const mobileBtn = document.getElementById('mobile-menu-btn');
+      const mobileMenu = document.getElementById('mobile-menu');
+      const iconOpen = document.getElementById('menu-icon-open');
+      const iconClose = document.getElementById('menu-icon-close');
+      const mobileLinks = document.querySelectorAll('.mobile-nav-link');
+
+      function toggleMobileMenu() {
+        const isExpanded = mobileBtn.getAttribute('aria-expanded') === 'true';
+        mobileBtn.setAttribute('aria-expanded', !isExpanded);
+        mobileMenu.classList.toggle('hidden');
+        iconOpen.classList.toggle('hidden');
+        iconClose.classList.toggle('hidden');
+      }
+
+      mobileBtn.addEventListener('click', toggleMobileMenu);
+
+      mobileLinks.forEach(link => {
+        link.addEventListener('click', () => {
+          if (!mobileMenu.classList.contains('hidden')) {
+            toggleMobileMenu();
+          }
+        });
+      });
+
+      // 4. Remplissage automatique du formulaire de devis depuis les boutons de service
+      const serviceButtons = document.querySelectorAll('.service-select-btn');
+      const quoteServiceSelect = document.getElementById('quote-service');
+
+      serviceButtons.forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          const serviceName = btn.getAttribute('data-service');
+          if (serviceName && quoteServiceSelect) {
+            quoteServiceSelect.value = serviceName;
+          }
+        });
+      });
+
+      // 5. Animations au scroll (Intersection Observer)
+      const revealElements = document.querySelectorAll('.reveal-fade-up, .reveal-fade-in');
+      const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+      if (!prefersReducedMotion && 'IntersectionObserver' in window) {
+        const revealObserver = new IntersectionObserver((entries, observer) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('revealed');
+              observer.unobserve(entry.target);
+            }
+          });
+        }, {
+          threshold: 0.12,
+          rootMargin: '0px 0px -40px 0px'
+        });
+
+        revealElements.forEach(el => revealObserver.observe(el));
+      } else {
+        revealElements.forEach(el => el.classList.add('revealed'));
+      }
+
+      // 6. Animation du compteur numérique pour les statistiques
+      const counters = document.querySelectorAll('.counter-number');
+      let countersStarted = false;
+
+      function startCounters() {
+        counters.forEach(counter => {
+          const target = parseInt(counter.getAttribute('data-target'), 10);
+          const prefix = counter.getAttribute('data-prefix') || '';
+          const suffix = counter.getAttribute('data-suffix') || '';
+          const duration = 1600; // ms
+          const stepTime = 20;
+          const totalSteps = duration / stepTime;
+          const increment = target / totalSteps;
+          let current = 0;
+
+          const timer = setInterval(() => {
+            current += increment;
+            if (current >= target) {
+              counter.textContent = `${prefix}${target}${suffix}`;
+              clearInterval(timer);
+            } else {
+              counter.textContent = `${prefix}${Math.floor(current)}${suffix}`;
+            }
+          }, stepTime);
+        });
+      }
+
+      const statsSection = document.getElementById('stats');
+      if (statsSection && 'IntersectionObserver' in window) {
+        const statsObserver = new IntersectionObserver((entries) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting && !countersStarted) {
+              countersStarted = true;
+              startCounters();
+              statsObserver.unobserve(statsSection);
+            }
+          });
+        }, { threshold: 0.25 });
+        statsObserver.observe(statsSection);
+      } else {
+        startCounters();
+      }
+
+      // 7. Filtres de la Galerie de Réalisations
+      const filterBtns = document.querySelectorAll('.gallery-filter-btn');
+      const galleryItems = document.querySelectorAll('.gallery-item');
+
+      filterBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+          const filter = btn.getAttribute('data-filter');
+
+          // Mise à jour de l'apparence des boutons de filtre
+          filterBtns.forEach(b => {
+            b.classList.remove('bg-clean-navy', 'text-white');
+            b.classList.add('bg-clean-ivory', 'text-clean-navy');
+          });
+          btn.classList.add('bg-clean-navy', 'text-white');
+          btn.classList.remove('bg-clean-ivory', 'text-clean-navy');
+
+          // Filtrage des éléments
+          galleryItems.forEach(item => {
+            const category = item.getAttribute('data-category');
+            if (filter === 'all' || category === filter) {
+              item.style.display = 'block';
+            } else {
+              item.style.display = 'none';
+            }
+          });
+        });
+      });
+
+      // 8. Lightbox pour la Galerie
+      const lightboxModal = document.getElementById('lightbox-modal');
+      const lightboxImg = document.getElementById('lightbox-image');
+      const lightboxCaption = document.getElementById('lightbox-caption');
+      const lightboxClose = document.getElementById('lightbox-close');
+      const lightboxPrev = document.getElementById('lightbox-prev');
+      const lightboxNext = document.getElementById('lightbox-next');
+
+      let currentGalleryIndex = 0;
+      let visibleGalleryItems = [];
+
+      function updateVisibleGallery() {
+        visibleGalleryItems = Array.from(galleryItems).filter(item => item.style.display !== 'none');
+      }
+
+      function showLightbox(index) {
+        updateVisibleGallery();
+        if (visibleGalleryItems.length === 0) return;
+        
+        currentGalleryIndex = (index + visibleGalleryItems.length) % visibleGalleryItems.length;
+        const currentItem = visibleGalleryItems[currentGalleryIndex];
+        const fullImg = currentItem.getAttribute('data-img');
+        const title = currentItem.getAttribute('data-title');
+
+        lightboxImg.src = fullImg;
+        lightboxCaption.textContent = title || '';
+        lightboxModal.classList.remove('hidden');
+        lightboxModal.classList.add('flex');
+        document.body.classList.add('overflow-hidden');
+      }
+
+      function closeLightbox() {
+        lightboxModal.classList.add('hidden');
+        lightboxModal.classList.remove('flex');
+        document.body.classList.remove('overflow-hidden');
+      }
+
+      galleryItems.forEach(item => {
+        item.addEventListener('click', () => {
+          updateVisibleGallery();
+          const itemIndex = visibleGalleryItems.indexOf(item);
+          showLightbox(itemIndex >= 0 ? itemIndex : 0);
+        });
+      });
+
+      if (lightboxClose) lightboxClose.addEventListener('click', closeLightbox);
+      if (lightboxPrev) {
+        lightboxPrev.addEventListener('click', (e) => {
+          e.stopPropagation();
+          showLightbox(currentGalleryIndex - 1);
+        });
+      }
+      if (lightboxNext) {
+        lightboxNext.addEventListener('click', (e) => {
+          e.stopPropagation();
+          showLightbox(currentGalleryIndex + 1);
+        });
+      }
+
+      // Fermeture par clic sur le fond sombre
+      lightboxModal.addEventListener('click', (e) => {
+        if (e.target === lightboxModal) {
+          closeLightbox();
+        }
+      });
+
+      // Navigation clavier pour la Lightbox (Escape, Flèche gauche, Flèche droite)
+      window.addEventListener('keydown', (e) => {
+        if (!lightboxModal.classList.contains('hidden')) {
+          if (e.key === 'Escape') closeLightbox();
+          if (e.key === 'ArrowLeft') showLightbox(currentGalleryIndex - 1);
+          if (e.key === 'ArrowRight') showLightbox(currentGalleryIndex + 1);
+        }
+      });
+
+      // 9. Accordéon FAQ
+      const faqButtons = document.querySelectorAll('.faq-btn');
+
+      faqButtons.forEach(btn => {
+        btn.addEventListener('click', () => {
+          const content = btn.nextElementSibling;
+          const icon = btn.querySelector('.faq-icon');
+          const isExpanded = btn.getAttribute('aria-expanded') === 'true';
+
+          // Fermer les autres accordéons
+          faqButtons.forEach(otherBtn => {
+            if (otherBtn !== btn) {
+              otherBtn.setAttribute('aria-expanded', 'false');
+              otherBtn.nextElementSibling.classList.add('hidden');
+              otherBtn.querySelector('.faq-icon').classList.remove('rotate-180');
+            }
+          });
+
+          // Inverser l'état actuel
+          if (isExpanded) {
+            btn.setAttribute('aria-expanded', 'false');
+            content.classList.add('hidden');
+            icon.classList.remove('rotate-180');
+          } else {
+            btn.setAttribute('aria-expanded', 'true');
+            content.classList.remove('hidden');
+            icon.classList.add('rotate-180');
+          }
+        });
+      });
+
+      // 10. Validation & Soumission du Formulaire de Devis
+      const quoteForm = document.getElementById('quote-form');
+      const quoteSuccess = document.getElementById('quote-success-msg');
+
+      if (quoteForm) {
+        quoteForm.addEventListener('submit', (e) => {
+          e.preventDefault();
+          let isValid = true;
+
+          // Champs obligatoires
+          const requiredFields = [
+            { id: 'quote-name', isCheck: false },
+            { id: 'quote-phone', isCheck: false },
+            { id: 'quote-service', isCheck: false },
+            { id: 'quote-location-type', isCheck: false },
+            { id: 'quote-frequency', isCheck: false },
+            { id: 'quote-consent', isCheck: true }
+          ];
+
+          requiredFields.forEach(field => {
+            const input = document.getElementById(field.id);
+            const parent = input.closest('div');
+            const error = parent ? parent.querySelector('.error-text') : null;
+
+            let fieldValid = true;
+            if (field.isCheck) {
+              fieldValid = input.checked;
+            } else {
+              fieldValid = input.value.trim() !== '';
+            }
+
+            if (!fieldValid) {
+              isValid = false;
+              if (error) error.classList.remove('hidden');
+              input.classList.add('border-red-500');
+            } else {
+              if (error) error.classList.add('hidden');
+              input.classList.remove('border-red-500');
+            }
+          });
+
+          if (isValid) {
+            // Afficher le message de succès élégant
+            quoteSuccess.classList.remove('hidden');
+            quoteForm.reset();
+            quoteSuccess.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+          }
+        });
+      }
+
+      // 11. Validation & Soumission du Formulaire de Contact
+      const contactForm = document.getElementById('contact-form');
+      const contactSuccess = document.getElementById('contact-success-msg');
+
+      if (contactForm) {
+        contactForm.addEventListener('submit', (e) => {
+          e.preventDefault();
+          let isValid = true;
+
+          const requiredIds = ['contact-name', 'contact-phone', 'contact-subject', 'contact-message'];
+          requiredIds.forEach(id => {
+            const input = document.getElementById(id);
+            const parent = input.closest('div');
+            const error = parent ? parent.querySelector('.error-text') : null;
+
+            if (!input.value.trim()) {
+              isValid = false;
+              if (error) error.classList.remove('hidden');
+              input.classList.add('border-red-500');
+            } else {
+              if (error) error.classList.add('hidden');
+              input.classList.remove('border-red-500');
+            }
+          });
+
+          if (isValid) {
+            contactSuccess.classList.remove('hidden');
+            contactForm.reset();
+            contactSuccess.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+          }
+        });
+      }
+
+    });
+  </script>
+</body>
+</html>
